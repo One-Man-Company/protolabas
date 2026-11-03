@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="lt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mokytojui — Protolabas</title>
+<meta name="description" content="Kiekvieno Protolabo modulio mokytojo medžiaga: tikslas, priemonės, eiga, diferencijavimas ir refleksija. Susieta su bendrąja programa.">
+<meta name="theme-color" content="#fff9f0">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23f59e0b'/%3E%3Ccircle cx='24' cy='26' r='7' fill='%23fff'/%3E%3Ccircle cx='42' cy='26' r='7' fill='%23fff'/%3E%3Cpath d='M18 42c4 8 24 8 28 0' stroke='%23fff' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/app.css">
+<style>
+  .t-intro{max-width:62ch}
+  .t-intro p{color:var(--ink-soft);line-height:1.65}
+  .t-toolbar{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:1.6rem 0 1.2rem}
+  .t-toolbar .filters{display:flex;flex-wrap:wrap;gap:.4rem}
+  .t-btn{font:inherit;font-size:.85rem;padding:.45rem .9rem;border-radius:999px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;min-height:var(--tap);transition:background .18s,border-color .18s}
+  .t-btn[aria-pressed="true"]{background:var(--leaf-soft);border-color:var(--leaf);font-weight:600}
+  .t-btn:hover{border-color:var(--leaf)}
+  .t-module{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.2rem;margin-bottom:1rem;box-shadow:var(--shadow-s);break-inside:avoid}
+  .t-module h2{font-size:1.1rem;margin:0 0 .2rem;display:flex;gap:.5rem;align-items:baseline;flex-wrap:wrap}
+  .t-module h2 .t-code{font-family:var(--font);font-size:.72rem;font-weight:600;color:var(--ink-soft);background:var(--cream-deep);padding:.15rem .5rem;border-radius:6px}
+  .t-meta{font-size:.8rem;color:var(--muted);margin-bottom:.8rem}
+  .t-outcome{background:var(--leaf-soft);border-left:3px solid var(--leaf);padding:.55rem .8rem;border-radius:0 8px 8px 0;font-size:.9rem;margin:.6rem 0 .9rem}
+  .t-grid{display:grid;gap:.9rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+  .t-block h3{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 .3rem}
+  .t-block ul,.t-block ol{margin:0;padding-left:1.1rem;font-size:.9rem;line-height:1.55}
+  .t-block li{margin-bottom:.25rem}
+  .t-block p{margin:0;font-size:.9rem;line-height:1.55}
+  .t-tags{display:flex;gap:.35rem;flex-wrap:wrap;margin-top:.8rem}
+  .t-tag{font-size:.68rem;padding:.12rem .45rem;border-radius:5px;background:var(--cream-deep);color:var(--ink-soft)}
+  .t-tag.p{background:var(--sky-soft);color:#0c4a6e}
+  .t-tag.opt{background:var(--warn-soft);color:#7c2d12}
+  .t-note{font-size:.82rem;color:var(--ink-soft);background:var(--cream-deep);padding:.6rem .8rem;border-radius:8px;margin-top:.7rem}
+  .t-empty{padding:2rem;text-align:center;color:var(--muted)}
+  @media print{
+    .topbar,.t-toolbar,.t-print{display:none!important}
+    body{background:#fff}
+    .t-module{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid}
+    main{padding:0}
+  }
+</style>
+</head>
+<body>
+<a class="sr-only" href="#main">Pereiti prie turinio</a>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="./">
+      <span class="brand-mark" aria-hidden="true">✳</span>
+      <span>Protolabas<small>mokausi tyrinėdamas</small></span>
+    </a>
+    <nav class="topnav" aria-label="Pagrindinė navigacija">
+      <a href="index.html#modules">Mokytis</a>
+      <a href="mokytojui.html" aria-current="page">Mokytojui</a>
+      <a href="index.html#apie">Apie</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap" style="padding:2rem 0 3rem">
+    <section class="t-intro">
+      <h1 style="font-size:2rem;margin:0 0 .6rem">Mokytojui</h1>
+      <p>Kiekvienas modulis turi paruoštą pamokos medžiagą: tikslą, priemones, eigą, diferencijavimą ir refleksiją. Medžiaga skirta tam, kad pamoka užimtų mažiau pasiruošimo laiko, o ne daugiau.</p>
+      <p>Vaikas gali pradėti savarankiškai, be registracijos ir be mokytojo prisijungimo. Mokytojo medžiaga yra atskira – ji nėra būtina norint mokytis.</p>
+      <div class="t-note"><strong>Svarbu:</strong> platforma nėra oficialus vertinimo įrankis. Moduliai susieti su bendrąja programa ir Švietimo kelrodžio principais, bet pasiekimų vertinimas lieka mokytojo sprendimas.</div>
+    </section>
+
+    <div class="t-toolbar">
+      <div class="filters" id="filters" role="group" aria-label="Filtruoti pagal dalyką"></div>
+      <button class="t-btn t-print" id="print" type="button">🖨 Spausdinti</button>
+    </div>
+
+    <p class="t-meta" id="count"></p>
+    <div id="list"><p class="t-empty">Kraunama…</p></div>
+  </div>
+</main>
+
+<footer class="band band-tint">
+  <div class="wrap">
+    <p style="margin:0;font-size:.85rem;color:var(--ink-soft)">
+      Protolabas · nemokama ir atviro kodo · be registracijos · be sekimo.
+      Turinys susietas su bendrąja programa ir Švietimo kelrodžio principais.
+    </p>
+  </div>
+</footer>
+
+<script type="module">
+const DIR = 'content/grade-01';
+const state = { subject: 'visi', modules: [] };
+
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => (
+  { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+));
+
+const list = (arr) => arr && arr.length
+  ? `<ul>${arr.map(x => `<li>${esc(x)}</li>`).join('')}</ul>`
+  : '<p>—</p>';
+
+function renderFilters(subjects) {
+  const box = document.getElementById('filters');
+  const opts = [['visi', 'Visi dalykai'], ...subjects];
+  box.innerHTML = opts.map(([key, label]) => `
+    <button class="t-btn" type="button" data-subject="${esc(key)}"
+      aria-pressed="${String(state.subject === key)}">${esc(label)}</button>`).join('');
+  box.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.subject = btn.dataset.subject;
+      renderFilters(subjects);
+      render();
+    });
+  });
+}
+
+function card(m) {
+  const cur = m.curriculum || {};
+  const t = m.teacher || {};
+  const tags = [];
+  (cur.codes || []).forEach(c => tags.push(`<span class="t-tag">${esc(c)}</span>`));
+  if (cur.status === 'papildoma') tags.push('<span class="t-tag opt">papildoma</span>');
+  (m.designNotes?.evidence || []).forEach(p => tags.push(`<span class="t-tag p">${esc(p)}</span>`));
+
+  return `
+  <article class="t-module">
+    <h2><span aria-hidden="true">${esc(m.icon || '')}</span> ${esc(m.title)}
+      <span class="t-code">${esc(m.subjectLabel)} · ${esc(m.minutes)} min.</span></h2>
+    <div class="t-meta">${esc(cur.program || '')}${cur.area ? ' · ' + esc(cur.area) : ''}</div>
+
+    <div class="t-block"><h3>Tikslas</h3><p>${esc(t.tikslas || '—')}</p></div>
+    ${m.outcome ? `<div class="t-outcome"><strong>Mokymosi rezultatas:</strong> ${esc(m.outcome)}</div>` : ''}
+
+    <div class="t-grid">
+      <div class="t-block"><h3>Priemonės</h3>${list(t.priemones)}</div>
+      <div class="t-block"><h3>Eiga</h3>${t.eiga?.length ? `<ol>${t.eiga.map(x => `<li>${esc(x)}</li>`).join('')}</ol>` : '<p>—</p>'}</div>
+      <div class="t-block"><h3>Diferencijavimas</h3>
+        <p><strong>Pagalba:</strong> ${esc(t.diferencijavimas?.pagalba || '—')}</p>
+        <p style="margin-top:.35rem"><strong>Iššūkis:</strong> ${esc(t.diferencijavimas?.issukis || '—')}</p>
+      </div>
+      <div class="t-block"><h3>Refleksija</h3><p>${esc(t.refleksija || '—')}</p></div>
+    </div>
+
+    ${m.designNotes?.pastaba ? `<div class="t-note">${esc(m.designNotes.pastaba)}</div>` : ''}
+    <div class="t-tags">${tags.join('')}</div>
+  </article>`;
+}
+
+function render() {
+  const el = document.getElementById('list');
+  const shown = state.subject === 'visi'
+    ? state.modules
+    : state.modules.filter(m => m.subject === state.subject);
+  document.getElementById('count').textContent =
+    `Rodoma ${shown.length} iš ${state.modules.length} modulių`;
+  el.innerHTML = shown.length
+    ? shown.map(card).join('')
+    : '<p class="t-empty">Šiam dalykui medžiagos dar nėra.</p>';
+}
+
+async function load() {
+  try {
+    const manifest = await fetch(`${DIR}/_grade.json`).then(r => r.json());
+    const ids = manifest.modules || manifest.moduleIds || [];
+    const mods = await Promise.all(
+      ids.map(id => fetch(`${DIR}/modules/${id}/module.json`).then(r => r.json()).catch(() => null))
+    );
+    state.modules = mods.filter(Boolean);
+    const seen = new Map();
+    state.modules.forEach(m => seen.set(m.subject, m.subjectLabel));
+    renderFilters([...seen]);
+    render();
+  } catch (e) {
+    document.getElementById('list').innerHTML =
+      '<p class="t-empty">Nepavyko įkelti medžiagos. Atidarykite per serverį (ne file://).</p>';
+  }
+}
+
+document.getElementById('print').addEventListener('click', () => window.print());
+load();
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+{
+  "id": "sokiu-zingsniai",
+  "grade": 1,
+  "subject": "sokis",
+  "subjectLabel": "Šokis",
+  "chipClass": "chip-berry",
+  "title": "Šokių žingsniai",
+  "tagline": "Įsimink judesių seką ir pakartok",
+  "icon": "💃",
+  "color": "berry",
+  "minutes": 9,
+  "curriculum": {
+    "program": "Šokio bendroji programa (atnaujinta 2022 m.)",
+    "area": "Judėjimo įgūdžių plėtojimas",
+    "codes": [
+      "Fizinis ugdymas 22.1.4"
+    ],
+    "note": "Judesių įsiminimas, seka, ritmo ir judesio derinimas.",
+    "status": "papildoma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13",
+    "S1-04"
+  ],
+  "objectives": [
+    "Įsiminti trijų judesių seką.",
+    "Pakartoti seką ta pačia tvarka.",
+    "Sujungti judesį su ritmu."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Šokis – tai seka",
+      "text": "Šokis susideda iš judesių, kurie kartojasi tam tikra tvarka.",
+      "visual": "💃",
+      "bullets": [
+        "Rankos, plojimas, trypimas, sukimasis.",
+        "Seka turi pradžią ir pabaigą.",
+        "Kartokite ir stebėkite vienas kitą."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "dance",
+      "title": "Pakartok šokį",
+      "text": "Žiūrėk judesių seką ir pakartok ją.",
+      "config": {}
+    },
+    {
+      "type": "sim",
+      "sim": "rhythm",
+      "title": "Šokio ritmas",
+      "text": "Sukurk ritmą, pagal kurį norėtum šokti.",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Kodėl šokyje svarbi tvarka?",
+      "options": [
+        "Kad judesiai kartotųsi ir derėtų",
+        "Kad būtų greičiau",
+        "Kad būtų sunkiau"
+      ],
+      "answer": 0,
+      "hint": "Seka – šokio pagrindas.",
+      "explain": "Tvarka sukuria šokio struktūrą."
+    },
+    {
+      "type": "reflect",
+      "question": "Kuris judesys tau patiko labiausiai?",
+      "chips": [
+        "Rankos aukštyn",
+        "Plojimas",
+        "Trypimas",
+        "Sukimasis"
+      ],
+      "note": "Savo mėgstamą judesį gali įtraukti į šokį."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Judesių sekos įsiminimas ir atkartojimas, ritmo pojūtis.",
+    "priemones": [
+      "muzika",
+      "atvira erdvė"
+    ],
+    "eiga": [
+      "Išmokykite 4 judesius atskirai.",
+      "Sujunkite į 3 judesių seką, tada ilginkite.",
+      "Leiskite vaikams sugalvoti savo seką ir parodyti kitiems."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Tik 2 judesiai iš eilės.",
+      "issukis": "5 judesių seka su pasikeitusiu ritmu."
+    },
+    "refleksija": "Klauskite: kaip įsiminei seką – žodžiais, vaizdu ar judesiu?"
+  },
+  "outcome": "Vaikas atkartoja 3–4 žingsnių šokio seką pagal muziką.",
+  "designNotes": {
+    "branduolineIdeja": "Šokis – tai judesių seka, sinchronizuota su muzika.",
+    "simTipas": "dance",
+    "kognityvineApkrova": "3–4 žingsniai, lėtas tempas.",
+    "ux": "Veiksmai rodomi kaip didelės figūros, o garsas ir judesys sinchronizuoti (P06).",
+    "evidence": [
+      "P45",
+      "P06"
+    ],
+    "pastaba": "Šokio bendroji programa nebuvo išgauta kartu su kitomis 9 programomis, todėl kodas žymimas kaip integruotas su fiziniu ugdymu, o ne kaip atskiras BP punktas."
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "metu-laikai",
+  "grade": 1,
+  "subject": "gamta",
+  "subjectLabel": "Gamtos mokslai",
+  "chipClass": "chip-sky",
+  "title": "Metų laikai",
+  "tagline": "Suk mėnesį ir stebėk, kaip keičiasi gamta",
+  "icon": "🍂",
+  "color": "sky",
+  "minutes": 10,
+  "curriculum": {
+    "program": "Pasaulio pažinimo bendroji programa (atnaujinta 2022 m.)",
+    "area": "Gamtos objektų ir reiškinių pažinimas",
+    "codes": [
+      "Gamtos mokslai (2 klasė) 27.2.3"
+    ],
+    "note": "Metų laikai, mėnesiai, dienos šviesos trukmė, augalų ir oro kaita.",
+    "status": "papildoma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13",
+    "S1-04"
+  ],
+  "objectives": [
+    "Pavadinti keturis metų laikus ir jų mėnesius.",
+    "Paaiškinti, kaip keičiasi medis, oras ir dienos ilgumas.",
+    "Susieti metų laiką su tinkamu apsirengimu."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Keturi metų laikai",
+      "text": "Žiema, pavasaris, vasara, ruduo. Kiekvienas turi savo orą ir spalvas.",
+      "visual": "🍂",
+      "bullets": [
+        "Žiema: šalta, sniegas, trumpos dienos.",
+        "Pavasaris: šilta, pumpurai, žiedai.",
+        "Vasara: karšta, ilgos dienos.",
+        "Ruduo: vėsu, geltoni lapai, lietus."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "seasons",
+      "title": "Koks metų laikas?",
+      "text": "Pažiūrėk į medį, dangų ir dienos ilgumą.",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Kada būna ilgiausia diena?",
+      "options": [
+        "Vasarą",
+        "Žiemą",
+        "Rudenį"
+      ],
+      "answer": 0,
+      "hint": "Saulė aukštai, tamsu vėlai.",
+      "explain": "Vasarą diena ilgiausia."
+    },
+    {
+      "type": "quiz",
+      "question": "Kuris mėnuo yra pavasarį?",
+      "options": [
+        "Balandis",
+        "Spalis",
+        "Sausis"
+      ],
+      "answer": 0,
+      "hint": "Pavasaris – kovas, balandis, gegužė.",
+      "explain": "Balandis – pavasario mėnuo."
+    },
+    {
+      "type": "reflect",
+      "question": "Kuris metų laikas tau patinka labiausiai?",
+      "chips": [
+        "Žiema",
+        "Pavasaris",
+        "Vasara",
+        "Ruduo"
+      ],
+      "note": "Kiekvienas laikas turi savo grožį."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Sezoninių pokyčių stebėjimas ir mėnesių priskyrimas metų laikams.",
+    "priemones": [
+      "kalendorius",
+      "lauko stebėjimo lapas"
+    ],
+    "eiga": [
+      "Stebėkite vieną medį visus metus ir pieškite, kaip jis keičiasi.",
+      "Kalbėkite apie dienos ilgumą: kada tamsu ryte, kada vakare.",
+      "Susiekite su apsirengimu: kodėl žiemą reikia kepurės."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Tik du kontrastingi laikai: vasara ir žiema.",
+      "issukis": "Paprašykite įvardyti po tris kiekvieno laiko požymius."
+    },
+    "refleksija": "Klauskite: kaip gamta pasako, kad ateina ruduo?"
+  },
+  "outcome": "Vaikas įvardija, kuo skiriasi du metų laikai pagal savo patirtį.",
+  "designNotes": {
+    "branduolineIdeja": "Metų laikai keičiasi iš eilės ir keičia gamtą.",
+    "simTipas": "variables",
+    "kognityvineApkrova": "Vienas metų laikas vienu metu, be visų keturių viename ekrane.",
+    "ux": "Trumpa sesija (≤5 min.), kad ekrano laikas nekauptų.",
+    "evidence": [
+      "P49",
+      "P12"
+    ],
+    "pastaba": "1 klasės BP metų laikų temos neturi – sezoniškumas programuojamas 2 klasėje (27.2.3). Todėl modulis žymimas papildomu ir neturi būti pateikiamas kaip 1 klasės privalomas turinys."
+  }
+}

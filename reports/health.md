@@ -1,0 +1,25 @@
+# Protolabas sveikatos ataskaita
+
+*Sugeneruota: 2026-11-03 13:57 · `tools/health.py`*
+
+**Būsena:** ✅ SVEIKA · įspėjimai: 0
+
+## Skaičiai
+
+| Rodiklis | Reikšmė |
+|---|---|
+| papildomi | ['akmenu-zaidimas', 'metu-laikai', 'sokiu-zingsniai'] |
+| moduliai | 22 |
+| dalyviai | {'matematika': 6, 'informatika': 1, 'gamta': 3, 'choras': 1, 'dorinis': 2, 'fizinis': 1, 'technologijos': 1, 'lietuviu': 2, 'muzika': 1, 'visuomeninis': 2, 'sokis': 1, 'daile': 1} |
+| truksta_dalyku | [] |
+| klases | [1] |
+| s1_taisykles | 20 |
+| s1_panaudotos | 12 |
+| s1_platformos | 8 |
+| s1_nepanaudotos | [] |
+| wiki_irasiai | 52 |
+| wiki_klases_su_turiniu | [1] |
+| html_puslapiai | ['mokytis.html', 'mokytojui.html', 'index.html'] |
+| validator | OK |
+
+Problemų nerasta.

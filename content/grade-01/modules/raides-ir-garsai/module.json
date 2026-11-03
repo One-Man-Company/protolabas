@@ -1,0 +1,124 @@
+{
+  "id": "raides-ir-garsai",
+  "grade": 1,
+  "subject": "lietuviu",
+  "subjectLabel": "Lietuvių kalba",
+  "chipClass": "chip-sun",
+  "title": "Raidės ir garsai",
+  "tagline": "Išgirsk pirmą garsą ir surask raidę",
+  "icon": "🔤",
+  "color": "sun",
+  "minutes": 10,
+  "curriculum": {
+    "program": "Lietuvių kalbos ir literatūros bendroji programa (atnaujinta 2022 m.)",
+    "area": "Kalbos pažinimas",
+    "codes": [
+      "Lietuvių kalba 25.4.1",
+      "Lietuvių kalba D1.3"
+    ],
+    "note": "Garsų skyrimas, raidės ir garso ryšys, skiemenų darymas.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13",
+    "S1-09"
+  ],
+  "objectives": [
+    "Išgirsti pirmąjį žodžio garsą.",
+    "Surasti jį atitinkančią raidę.",
+    "Sudaryti atvirąjį skiemenį (priebalsis + balsis)."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Garsas girdisi, raidė matosi",
+      "text": "Žodis „saulė“ prasideda garsu s. Raidė S jį pažymi.",
+      "visual": "☀️",
+      "bullets": [
+        "Balsiai: a, e, ė, i, o, u, y.",
+        "Priebalsiai: m, s, k, l, n…",
+        "Skiemenį sudaro priebalsis ir balsis: sa."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "letters",
+      "title": "Išgirsk ir surask",
+      "text": "Paklausyk žodžio ir pasirink raidę, kuri jį pradeda.",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Kokia raidė pradeda žodį „medis“?",
+      "options": [
+        "M",
+        "D",
+        "S"
+      ],
+      "answer": 0,
+      "hint": "Pasakyk žodį lėtai: m-m-medis.",
+      "explain": "Žodis prasideda garsu m, raidė M."
+    },
+    {
+      "type": "quiz",
+      "question": "Kuris skiemuo? Priebalsis k + balsis a",
+      "options": [
+        "ka",
+        "ak",
+        "k"
+      ],
+      "answer": 0,
+      "hint": "Pirmiausia priebalsis, paskui balsis.",
+      "explain": "ka – priebalsis k, po jo balsis a."
+    },
+    {
+      "type": "reflect",
+      "question": "Kuris žodis tau skamba lengviausiai?",
+      "chips": [
+        "su balsiu a",
+        "su balsiu o",
+        "su balsiu ė",
+        "su balsiu u"
+      ],
+      "note": "Kiekvienas garsas turi savo vietą burnoje."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Fonologinė sąmonė: pirmo garso skyrimas, raidės–garso ryšys, skiemenų darymas.",
+    "priemones": [
+      "raidžių kortelės",
+      "veidrodis garsams stebėti"
+    ],
+    "eiga": [
+      "Tarkite žodį lėtai ir prašykite išgirsti pirmą garsą, ne raidę.",
+      "Tada parodykite raidę ir sujunkite: garsas s – raidė S.",
+      "Skiemenius darykite balsu, o paskui užrašykite."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Naudokite tik balsius ir tris priebalsius (m, s, l).",
+      "issukis": "Prašykite sugalvoti du žodžius tam pačiam garsui."
+    },
+    "refleksija": "Klauskite: kaip atskirti garsą nuo raidės?"
+  },
+  "outcome": "Vaikas bent 4 iš 5 kartų teisingai priskiria garsą raidei ir atskiria balsį nuo priebalsio.",
+  "designNotes": {
+    "branduolineIdeja": "Kiekvienas garsas žymimas raide; balsiai tariami laisvai, priebalsiai – su kliūtimi.",
+    "simTipas": "classify",
+    "kognityvineApkrova": "Viena raidė ir vienas garsas vienu metu, be abėcėlės visumos.",
+    "ux": "Raidė visada girdima balsu (modality), nes 1 klasėje skaitymo krūvis minimalus.",
+    "evidence": [
+      "P31",
+      "P34",
+      "P32"
+    ],
+    "pastaba": "P34: skiemens metodo pranašumas lietuvių kalboje – hipotezė, kurią platforma turi tikrinti pati. Raidžių įvedimo seka programoje nenurodyta, todėl tai metodinė prielaida."
+  }
+}

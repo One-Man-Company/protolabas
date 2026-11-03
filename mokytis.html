@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="lt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mokytis — Protolabas</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23f59e0b'/%3E%3Ccircle cx='24' cy='26' r='7' fill='%23fff'/%3E%3Ccircle cx='42' cy='26' r='7' fill='%23fff'/%3E%3Cpath d='M18 42c4 8 24 8 28 0' stroke='%23fff' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/lesson.css">
+</head>
+<body class="lesson-page">
+<a class="sr-only" href="#stage">Pereiti prie veiklos</a>
+
+<header class="lesson-top">
+  <a class="btn btn-ghost btn-sm" href="./" id="backLink">← <span data-i18n="toModules">Į modulių sąrašą</span></a>
+  <div class="lesson-id">
+    <span class="chip" id="subjectChip">—</span>
+    <b id="lessonTitle">—</b>
+  </div>
+  <div class="lesson-tools">
+    <button class="icon-btn" id="soundBtn" aria-pressed="true" aria-label="Garsas" title="Garsas">🔊</button>
+  </div>
+</header>
+
+<div class="steps" id="steps" role="progressbar" aria-label="Modulio eiga" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+
+<main class="lesson-main" id="stage-main">
+  <section class="stage-card">
+    <div class="stage-head">
+      <span class="step-count" id="stepCount">—</span>
+      <h2 id="actTitle">Kraunama…</h2>
+      <p id="actText"></p>
+      <div><button class="speak-btn" id="speakBtn" type="button">🔈 <span data-i18n="listen">Paklausyk</span></button></div>
+    </div>
+    <div class="stage" id="stage"></div>
+  </section>
+  <footer class="lesson-foot">
+    <button class="btn btn-ghost" id="prevBtn" disabled>← <span data-i18n="back">Atgal</span></button>
+    <div class="hint" id="hint" aria-live="polite"></div>
+    <button class="btn btn-primary" id="nextBtn" disabled><span data-i18n="next">Toliau</span> →</button>
+  </footer>
+</main>
+
+<script type="module" src="js/lesson.js"></script>
+</body>
+</html>

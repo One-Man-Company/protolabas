@@ -1,0 +1,71 @@
+{
+  "note": "Platformos lygio atitiktis. Modulio lygio taisykles tikrina tools/health.py per module.json 's1' lauka. Cia aprasytos taisykles galioja visai platformai, ne atskiram moduliui.",
+  "rules": [
+    {
+      "id": "S1-03",
+      "how": "Rezultatai destomi pakopomis: klases manifestas tvarko modulius prielaidu tvarka, o kiekvienas modulis turi viena ismatuojama rezultata.",
+      "evidence": [
+        "content/grade-01/_grade.json",
+        "content/schema/module.schema.json"
+      ]
+    },
+    {
+      "id": "S1-06",
+      "how": "Pazanga fiksuojama tik irenginyje (localStorage), be registro ir be asmens duomenu; nera ne vienos tinklo uzklausos i isore.",
+      "evidence": [
+        "js/core/store.js",
+        "tools/health.py"
+      ]
+    },
+    {
+      "id": "S1-07",
+      "how": "Sistema pati pasiulo pagalba: klaidingas atsakymas iskart rodo uzomina (hint), o ne tik 'neteisingai'.",
+      "evidence": [
+        "js/lesson.js",
+        "content/schema/module.schema.json"
+      ]
+    },
+    {
+      "id": "S1-08",
+      "how": "Neveiksminga pagalba keiciama, ne kartojama: turinio kurimo procesas reikalauja perziuros po piloto ir pakartotines pagalbos perrasymo.",
+      "evidence": [
+        "wiki/00-bendra/turinio-kurimo-procesas.md",
+        "agents/content-reviewer.md"
+      ]
+    },
+    {
+      "id": "S1-10",
+      "how": "Pazangos suvestine perkeliama: exportJSON/importJSON su saugiu sujungimu ir UI mygtukais.",
+      "evidence": [
+        "js/core/store.js",
+        "index.html"
+      ]
+    },
+    {
+      "id": "S1-15",
+      "how": "Vienoda kokybe nepaisant vietos ir rysio: staticinis puslapis be isoriniu uzklausu, validatorius blokuoja nuorodas i interneta.",
+      "evidence": [
+        "tools/validate.py",
+        "tools/health.py"
+      ]
+    },
+    {
+      "id": "S1-19",
+      "how": "Pilotas pries platinima: turinio kurimo procese yra 9 vartai, o modulis nelaikomas baigtu be perziuros ir audito.",
+      "evidence": [
+        "wiki/00-bendra/turinio-kurimo-procesas.md",
+        "agents/content-reviewer.md",
+        "tools/audit.mjs"
+      ]
+    },
+    {
+      "id": "S1-20",
+      "how": "Kasmetine iteracija, griasta duomenimis: suplanuoti agentai kas savaite paleidzia health.py ir atnaujina turini pagal rezultatus.",
+      "evidence": [
+        "agents/README.md",
+        "agents/orchestrator.md",
+        "tools/health.py"
+      ]
+    }
+  ]
+}

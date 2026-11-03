@@ -1,0 +1,123 @@
+{
+  "id": "skaitau-zodzius",
+  "grade": 1,
+  "subject": "lietuviu",
+  "subjectLabel": "Lietuvių kalba",
+  "chipClass": "chip-berry",
+  "title": "Skaitau žodžius",
+  "tagline": "Skiemenis po skiemens – ir žodis perskaitytas",
+  "icon": "📖",
+  "color": "berry",
+  "minutes": 10,
+  "curriculum": {
+    "program": "Lietuvių kalbos ir literatūros bendroji programa (atnaujinta 2022 m.)",
+    "area": "Skaitymas ir teksto supratimas",
+    "codes": [
+      "Lietuvių kalba 25.4.1",
+      "Lietuvių kalba D2.2"
+    ],
+    "note": "Skiemenuotas skaitymas, žodžio ir prasmės ryšys, trumpų žodžių atpažinimas.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13",
+    "S1-09"
+  ],
+  "objectives": [
+    "Sudėti dviejų skiemenų žodį.",
+    "Perskaityti žodį balsu.",
+    "Susieti perskaitytą žodį su paveikslėliu."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Skaityk po skiemenį",
+      "text": "„Ka-tė“ – du skiemenys. Perskaityk juos kartu: katė.",
+      "visual": "📖",
+      "bullets": [
+        "Skiemuo turi balsį.",
+        "Skaityk iš kairės į dešinę.",
+        "Kai sunku, suplok skiemenis."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "reading",
+      "title": "Sudėk žodį",
+      "text": "Pažiūrėk į paveikslėlį ir sudėk žodį iš skiemenų.",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Kiek skiemenų žodyje „namas“?",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "hint": "Suplok: na-mas.",
+      "explain": "Du skiemenys: na ir mas."
+    },
+    {
+      "type": "quiz",
+      "question": "Kuris žodis reiškia paveikslėlį 🐟?",
+      "options": [
+        "žuvis",
+        "žolė",
+        "žiemą"
+      ],
+      "answer": 0,
+      "hint": "Pirmas skiemuo – žu.",
+      "explain": "🐟 yra žuvis."
+    },
+    {
+      "type": "reflect",
+      "question": "Kas padeda, kai žodis nesiskaito?",
+      "chips": [
+        "Suploju skiemenis",
+        "Skaitau lėčiau",
+        "Žiūriu į paveikslėlį",
+        "Prašau pagalbos"
+      ],
+      "note": "Visi šie būdai yra geri."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Skiemenuotas skaitymas ir skaitymo prasmės supratimas.",
+    "prienones": [
+      "skiemenų kortelės",
+      "paveikslėlių kortelės"
+    ],
+    "eiga": [
+      "Pirmiausia skaitykite kartu, pirštu rodydami skiemenį.",
+      "Tada leiskite vaikui sudėti žodį savarankiškai.",
+      "Užbaikite: perskaitytas žodis parodomas daiktu ar paveikslėliu."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Tik dviejų skiemenų žodžiai su atviraisiais skiemenimis.",
+      "issukis": "Triskiemenis žodis (rutulys, obuolys)."
+    },
+    "refleksija": "Klauskite: kaip supratai, kad žodis teisingas?"
+  },
+  "outcome": "Vaikas bent 4 iš 5 kartų perskaito 2–3 skiemenų žodį ir parodo jį atitinkantį paveikslėlį.",
+  "designNotes": {
+    "branduolineIdeja": "Žodis skaitomas skiemenimis, o perskaitytas žodis turi prasmę.",
+    "simTipas": "match",
+    "kognityvineApkrova": "Ne daugiau kaip 3 pasirinkimai; žodžiai 2–3 skiemenų.",
+    "ux": "Skiemuo paryškinamas, kai vaikas jį paliečia; garsas paleidžiamas tik paprašius.",
+    "evidence": [
+      "P31",
+      "P33",
+      "P34"
+    ]
+  }
+}

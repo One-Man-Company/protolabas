@@ -1,0 +1,272 @@
+{
+  "version": "1.0",
+  "source": {
+    "title": "Švietimo kelrodis 2035",
+    "url": "https://kelrodis.svietimas.lt/",
+    "status": "not-legal-act"
+  },
+  "rules": [
+    {
+      "id": "S1-01",
+      "level": "B",
+      "title_lt": "Viename modulyje — viena branduolinė idėja",
+      "rule_lt": "Modulis moko vienos sąvokos ar vieno įgūdžio. Papildomos temos leidžiamos tik kaip tos pačios idėjos pritaikymai, ne kaip naujos temos.",
+      "rationale_lt": "1 žingsnis: sumažinti apimtį pagal principą „mažiau temų, daugiau gylio“ (TRUMPOJI, p. 8). EBPO: geriau mažiau esminių temų, bet suprantamai, o ne paviršutiniškai perbėgti ilgą sąrašą (IŠPLĖSTINĖ, p. 9).",
+      "step": 1,
+      "checks": [
+        "Metaduomenyse yra vienas branduoline_ideja laukas",
+        "Ne daugiau kaip viena nauja sąvoka modulyje",
+        "Atsakymas „ko moko modulis“ telpa į vieną sakinį"
+      ]
+    },
+    {
+      "id": "S1-02",
+      "level": "B",
+      "title_lt": "Kiekvienas modulis turi išmatuojamą mokymosi rezultatą",
+      "rule_lt": "Rezultatas formuluojamas veiksmažodžiu, nusakančiu pastebimą veiksmą („paaiškina“, „apskaičiuoja“, „numato“, „palygina“), ir yra patikrinamas modulio viduje.",
+      "rationale_lt": "1 žingsnio 2 veiksmas: aiškiai įvardinti, ką mokinys turi išmokti kiekviename etape (TRUMPOJI, p. 8). Programose pasigendama aiškių kriterijų (IŠPLĖSTINĖ, p. 9).",
+      "step": 1,
+      "checks": [
+        "Yra 1–3 rezultatai",
+        "Kiekvienas rezultatas prasideda veiksmažodžiu",
+        "Kiekvieną rezultatą atitinka bent viena užduotis",
+        "Nėra formuluočių „žinos“, „supras“"
+      ]
+    },
+    {
+      "id": "S1-03",
+      "level": "B",
+      "title_lt": "Rezultatai išdėstomi pakopomis, o ne atsitiktine tvarka",
+      "rule_lt": "Kiekvienas modulis pažymėtas klasių grupe (1–4, 5–6, 7–9, 10–12) ir priklauso iš anksto aprašytai pakopos rezultatų sekai. Modulis be vietos sekoje neskelbiamas.",
+      "rationale_lt": "1 žingsnio 2 veiksmas kalba apie rezultatus kiekviename ugdymo etape; 7 žingsnis siūlo 6+3+3 struktūrą – pradinis iki 6 kl., pagrindinis iki 9 kl., vidurinis 10–12 kl. (TRUMPOJI, p. 9).",
+      "step": 1,
+      "checks": [
+        "Yra viešas pakopos-rezultatai dokumentas",
+        "Kiekvienas modulis turi nuorodą į pakopos rezultatą",
+        "Nėra temos be ryšio su pakopos rezultatu"
+      ]
+    },
+    {
+      "id": "S1-04",
+      "level": "B",
+      "title_lt": "Privalomas, papildomas ir pasirenkamas turinys atskirtas vizualiai ir duomenimis",
+      "rule_lt": "Kiekviena veikla turi žymą butina / papildoma / pasirenkama. Mokinys mato, kas būtina norint uždaryti temą, o kas — tik smalsumui.",
+      "rationale_lt": "1 žingsnio 2 veiksmas: atskirti, kas būtina, o kas papildoma ar pasirenkama (TRUMPOJI, p. 8). Tai programos branduolio ir plėtros principas, perkeltas į sąsają.",
+      "step": 1,
+      "checks": [
+        "100 proc. veiklų turi žymą",
+        "Žyma rodoma sąsajoje, ne tik metaduomenyse",
+        "Suvestinė atskirai rodo būtiną ir papildomą turinį"
+      ]
+    },
+    {
+      "id": "S1-05",
+      "level": "B",
+      "title_lt": "Vertinimo kriterijai vienodi visoje platformoje",
+      "rule_lt": "Kiekviena užduotis vertinama pagal tą pačią 3–4 lygių rubriką (pvz., „pradedu / bandau / įvaldžiau / gilinu“), su aprašytais požymiais, o ne pagal autoriaus nuojautą.",
+      "rationale_lt": "2 žingsnio 3 veiksmas: bendras vertinimo standartas, kad tas pats lygis visose mokyklose reikštų panašų rezultatą (TRUMPOJI, p. 8). Europos Komisija: mokytojai kriterijus supranta ir taiko nevienodai (IŠPLĖSTINĖ, p. 10).",
+      "step": 2,
+      "checks": [
+        "Viena rubrikos schema visoje platformoje",
+        "Kiekvienas lygis turi elgesio aprašą",
+        "Du recenzentai sutaria ≥ 80 proc. ėminyje"
+      ]
+    },
+    {
+      "id": "S1-06",
+      "level": "T",
+      "title_lt": "Pažanga fiksuojama įrenginyje, be registracijos ir be asmens duomenų",
+      "rule_lt": "Būsena saugoma localStorage / IndexedDB. Nėra paskyrų, el. pašto, vardų. Mokinys mato savo pažangą kaip „kas įvaldyta / kas dar ne“, o ne kaip procentą.",
+      "rationale_lt": "3 žingsnio 1 veiksmas: kaupti informaciją apie pasiekimus ir savijautą, matomą mokiniui, tėvams ir mokytojams (TRUMPOJI, p. 8). Be paskyrų šį reikalavimą išpildome tik iš dalies ir tą ribą deklaruojame atvirai.",
+      "step": 3,
+      "checks": [
+        "Jokių tinklo užklausų su mokinio duomenimis",
+        "Veikia privačioje naršymo sesijoje",
+        "Aiškus pranešimas, kad pažanga lieka šiame įrenginyje"
+      ]
+    },
+    {
+      "id": "S1-07",
+      "level": "B",
+      "title_lt": "Sistema pati pasiūlo pagalbą, kai mokiniui nesiseka",
+      "rule_lt": "Po dviejų nepavykusių to paties tipo bandymų mokiniui automatiškai pasiūlomas alternatyvus paaiškinimas ar lengvesnis žingsnis — ne bauda ir ne užrakinimas.",
+      "rationale_lt": "3 žingsnio 2 veiksmas: sistema siunčia signalą, kai pažanga reikšmingai pasikeičia; 3 veiksmas: intensyvi pagalba nepasiekiantiems bazinio lygio (TRUMPOJI, p. 8). 63 proc. mokinių sako gaunantys papildomą pagalbą (EBPO 73 proc.) (IŠPLĖSTINĖ, p. 10).",
+      "step": 3,
+      "checks": [
+        "Yra pagalbos_slenkstis parametras (numatytas 2)",
+        "Pagalba siūloma tame pačiame ekrane",
+        "Joks turinys netampa neprieinamas dėl nesėkmės"
+      ]
+    },
+    {
+      "id": "S1-08",
+      "level": "B",
+      "title_lt": "Neveiksminga pagalba keičiama, o ne kartojama",
+      "rule_lt": "Jei ta pati pagalba nepadeda per 3 bandymus, sistema keičia metodo tipą (vaizdas → tekstas → manipuliavimas → pavyzdys), o ne siūlo tą pačią užduotį dar kartą.",
+      "rationale_lt": "3 žingsnio 3 veiksmas: jei pagalba neveiksminga, ją keisti arba stiprinti, kol mokinys pasiekia bazinį lygį (TRUMPOJI, p. 8).",
+      "step": 3,
+      "checks": [
+        "Kiekviena užduotis turi bent 2 skirtingo tipo pagalbos variantus",
+        "Sistema fiksuoja, kuris variantas suveikė",
+        "Nėra užduočių su vienintele pagalba"
+      ]
+    },
+    {
+      "id": "S1-09",
+      "level": "B",
+      "title_lt": "Aukštesnių pasiekimų mokiniams — gilyn, ne daugiau to paties",
+      "rule_lt": "Įvaldžiusiam mokiniui siūloma kokybiškai kita užduotis (perkėlimas į naują kontekstą, atviras uždavinys, projektas), o ne dešimt papildomų to paties tipo pratimų.",
+      "rationale_lt": "3 žingsnio 4 veiksmas: sudaryti sąlygas mokytis giliau nepriklausomai nuo mokyklos galimybių (TRUMPOJI, p. 8). Būklė, kurios nekartojame: aukštesnių gebėjimų mokiniui siūloma tik sudėtingesnė užduotis (IŠPLĖSTINĖ, p. 10).",
+      "step": 3,
+      "checks": [
+        "Kiekvienas modulis turi gilinimo šaką",
+        "Gilinimo užduotis keičia kontekstą, ne skaičių dydį",
+        "Gilinimas nežymimas kaip bonusiniai taškai"
+      ]
+    },
+    {
+      "id": "S1-10",
+      "level": "T",
+      "title_lt": "Pažangos suvestinė yra perkeliama",
+      "rule_lt": "Mokinys ar tėvas gali vienu paspaudimu išsisaugoti suvestinę (PDF arba spausdinama versija) ir perkelti ją į kitą įrenginį failo importu.",
+      "rationale_lt": "3 žingsnio 1 veiksmas: informacija turi keliauti kartu su mokiniu keičiant mokyklą ar ugdymo pakopą (TRUMPOJI, p. 8). Be paskyrų tai įmanoma tik eksportu – dalinis sprendimas.",
+      "step": 3,
+      "checks": [
+        "Yra „Išsisaugoti pažangą“ mygtukas",
+        "Failą galima importuoti atgal",
+        "Suvestinė suprantama be platformos"
+      ]
+    },
+    {
+      "id": "S1-11",
+      "level": "B",
+      "title_lt": "Jokio viešo reitingavimo; lyginamasi tik su savimi",
+      "rule_lt": "Nėra lyderių lentelių, kitų vaikų rezultatų, „top 10“. Pažanga rodoma kaip „šiandien prieš praėjusią savaitę“.",
+      "rationale_lt": "7 žingsnio 2 veiksmas: mokykla vertinama ir pagal pasiektą vaiko pažangą, ne vien rezultatus (TRUMPOJI, p. 9); 5 žingsnis – pozityvi aplinka. Tik 62,1 proc. mokinių jaučia priklausymą mokyklai (EBPO 76,2 proc.), 45,3 proc. patyrė patyčių (IŠPLĖSTINĖ, p. 15).",
+      "step": 7,
+      "checks": [
+        "Kodo paieška neranda leaderboard ar ranking komponento",
+        "Jokia užklausa neperduoda kito mokinio duomenų",
+        "Sąsajoje nėra „geriausias klasėje“"
+      ]
+    },
+    {
+      "id": "S1-12",
+      "level": "B",
+      "title_lt": "Grįžtamasis ryšys — augimo mąstysenos kalba",
+      "rule_lt": "Klaida komentuojama kaip strategijos klausimas („ši strategija dar neveikia — pabandykim kitaip“), o ne kaip gebėjimo trūkumas. Draudžiamos formulės: „tu nesugebi“, „tau per sunku“, „esi silpnas“, „nepraeisi“.",
+      "rationale_lt": "5 žingsnis kuria pozityvią darbo ir mokymosi aplinką, o duomenys naudojami refleksijai, ne kontrolei (TRUMPOJI, p. 9; IŠPLĖSTINĖ, p. 15). 52 proc. penkiolikmečių tiki, kad gebėjimus galima ugdyti (EBPO 69, Estija 83), siekis – 80 proc. (IŠPLĖSTINĖ, p. 4; TRUMPOJI, p. 7).",
+      "step": 5,
+      "checks": [
+        "Visi klaidų pranešimai peržiūrėti pagal draudžiamų frazių sąrašą",
+        "Kiekvienas pranešimas turi „ką daryti toliau“",
+        "Niekur nevartojamas žodis „nesugebėjai“"
+      ]
+    },
+    {
+      "id": "S1-13",
+      "level": "B",
+      "title_lt": "Saugi aplinka: klaida — informacija, o ne bausmė",
+      "rule_lt": "Pagrindiniame kelyje nėra laiko limito, „gyvybių“, minusinių taškų, garsinių nesėkmės signalų. Po modulio — vienas savijautos klausimas, kurio atsakymas saugomas tik įrenginyje.",
+      "rationale_lt": "5 žingsnis: mokyklose kuriama pozityvi darbo ir mokymosi aplinka (TRUMPOJI, p. 9); duomenys naudojami pirmiausia ne išorinei kontrolei, bet refleksijai (IŠPLĖSTINĖ, p. 15).",
+      "step": 5,
+      "checks": [
+        "Jokių laikmačių privalomose užduotyse",
+        "Nėra gyvybių ar širdelių modelio",
+        "Savijautos atsakymas neišsiunčiamas į tinklą"
+      ]
+    },
+    {
+      "id": "S1-14",
+      "level": "B",
+      "title_lt": "Terminija ir turinys suderinti su bendrąja programa",
+      "rule_lt": "Kiekviena sąvoka vartojama taip, kaip bendrosiose programose ir PUPP / VBE užduotyse. Modulyje nurodytas atitikmuo: dalykas, klasė, programos sritis.",
+      "rationale_lt": "2 žingsnio 4 veiksmas: sutelkti programų, egzaminų ir vertinimo kriterijų atsakomybę, kad jie derėtų tarpusavyje (TRUMPOJI, p. 9); 3 veiksmas: tas pats lygis reikštų panašų rezultatą (p. 8).",
+      "step": 2,
+      "checks": [
+        "Yra dalykas, klasė ir sritis laukai",
+        "Terminų žodyne nėra sinonimų dubliavimo",
+        "Bent vienas dalyko mokytojas peržiūrėjo modulį"
+      ]
+    },
+    {
+      "id": "S1-15",
+      "level": "T",
+      "title_lt": "Vienoda kokybė nepaisant vietos, įrenginio ir ryšio",
+      "rule_lt": "Ta pati medžiaga veikia telefone, planšetėje ir nešiojamame kompiuteryje, kraunasi silpnu ryšiu, o pagrindinis turinys pasiekiamas ir be nuolatinio interneto po pirmo įkėlimo.",
+      "rationale_lt": "Programos pažadas: vaikas nepriklausomai nuo gyvenamosios vietos ar mokyklos turi turėti vienodas galimybes (svietimas.lt); 3 žingsnio 4 veiksmas – sąlygos nepriklausomai nuo mokyklos galimybių (TRUMPOJI, p. 8). Miesto ir kaimo gamtos mokslų atotrūkis – 65 taškai, EBPO 33 (IŠPLĖSTINĖ, p. 5).",
+      "step": 3,
+      "checks": [
+        "Testas telefone, planšetėje ir nešiojamame kompiuteryje",
+        "Lėtas 3G profilis praeina be sulūžusio išdėstymo",
+        "Po pirmo įkėlimo modulis atsidaro be tinklo"
+      ]
+    },
+    {
+      "id": "S1-16",
+      "level": "B",
+      "title_lt": "Kelias be mokytojo: vaikas gali pradėti pats",
+      "rule_lt": "Kiekviena tema pasiekiama naršymu be kvietimo, be klasės kodo, be mokytojo patvirtinimo. Instrukcija, kaip pradėti, telpa į vieną ekraną.",
+      "rationale_lt": "Platforma neturi registracijos, todėl mokytojas negali būti vartų sargas; 3 žingsnio 4 veiksmas reikalauja prieigos nepriklausomai nuo mokyklos galimybių (TRUMPOJI, p. 8).",
+      "step": 3,
+      "checks": [
+        "Trys paspaudimai nuo įėjimo iki pirmos užduoties",
+        "Nėra „įveskite klasės kodą“ ekrano",
+        "Navigacija veikia be prisijungimo"
+      ]
+    },
+    {
+      "id": "S1-17",
+      "level": "B",
+      "title_lt": "Kiekvienam moduliui — mokytojo medžiaga, taupanti laiką",
+      "rule_lt": "Atskirame puslapyje: rezultatas, numatomas laikas, dažniausios klaidos su paaiškinimais, trys klausimai diskusijai, spausdinama santrauka. Ne ilgiau nei vienas A4.",
+      "rationale_lt": "9 žingsnio 4 veiksmas: mažinti mokytojų administracinį krūvį atsisakant pasikartojančių reikalavimų ir kuriant integruotas sistemas (IŠPLĖSTINĖ, p. 21). Tik 37 proc. mokytojų kas mėnesį tariasi su kolegomis dėl pažangos (EBPO 60 proc.) (p. 20).",
+      "step": 9,
+      "checks": [
+        "Kiekviename modulyje yra mokytojui.md",
+        "Medžiaga telpa į vieną A4",
+        "Yra dažnų klaidų skiltis",
+        "Nereikalaujama registracijos"
+      ]
+    },
+    {
+      "id": "S1-18",
+      "level": "T",
+      "title_lt": "Minimalūs duomenys, jokio trečiųjų šalių sekimo",
+      "rule_lt": "Nėra analitikos skriptų, slapukų, socialinių tinklų mygtukų; jokia statistika nerenkama individualiai. Jei renkama apibendrinta statistika — tik be asmens duomenų ir aiškiai paskelbus.",
+      "rationale_lt": "Kelrodyje apie tai nieko nėra – tai spraga, todėl sprendžiame konservatyviau: 3 žingsnis mini jautrią informaciją (savijauta, mokymosi sunkumai, specialieji poreikiai), kuri neturi palikti įrenginio be pagrindo (TRUMPOJI, p. 8).",
+      "step": 3,
+      "checks": [
+        "Tinklo skydelyje nėra užklausų į trečiąsias šalis",
+        "Nėra slapukų, išskyrus būtinąsias",
+        "Privatumo puslapyje parašyta, kas saugoma ir kur"
+      ]
+    },
+    {
+      "id": "S1-19",
+      "level": "B",
+      "title_lt": "Pilotas prieš platinimą",
+      "rule_lt": "Naujas modulis ar mechanika pirmiausia išbandoma su 5–10 mokytojų arba 2–3 mokyklomis, su iš anksto užrašytais sėkmės kriterijais. Rezultatai skelbiami viešai nepriklausomai nuo to, ar jie teigiami.",
+      "rationale_lt": "6 žingsnis: nacionaliniu mastu plėsti tik tuos sprendimus, kurių nauda įrodyta duomenimis (TRUMPOJI, p. 9). Anglijoje pirmiausia išbando 10–20 įstaigų, vėliau 50–100, ataskaitas skelbia nepriklausomi vertintojai (IŠPLĖSTINĖ, p. 16).",
+      "step": 6,
+      "checks": [
+        "Piloto protokolas su kriterijais prieš startą",
+        "Rezultatų ataskaita paskelbta",
+        "Nepavykę sprendimai dokumentuoti, ne ištrinti"
+      ]
+    },
+    {
+      "id": "S1-20",
+      "level": "T",
+      "title_lt": "Kasmetinė iteracija, grįsta duomenimis, o ne nuomone",
+      "rule_lt": "Kartą per metus peržiūrimi bent keturi metrikai: kur mokiniai nustoja (atsisakymo taškai), laikas iki pirmos sėkmės, kuri pagalba padeda, grįžtančių mokinių dalis. Kiekvienas pakeitimas turi prielaidą ir tikrinimo būdą.",
+      "rationale_lt": "1 žingsnio 3 veiksmas: pokyčius grįsti duomenimis, nustatyti aiškų atnaujinimo ciklą ir prieš diegiant pakeitimus juos išbandyti (TRUMPOJI, p. 8).",
+      "step": 1,
+      "checks": [
+        "Metinė peržiūra įvyksta ir įrašyta",
+        "Kiekvienas pakeitimas turi prielaidą",
+        "Metrikai matuojami vietoje, be asmens duomenų"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="lt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Protolabas — mokausi tyrinėdamas | 1–12 klasė</title>
+<meta name="description" content="Nemokama, atviro kodo lietuviška mokymosi platforma 1–12 klasei: interaktyvios simuliacijos, modeliai ir žaidimai, susieti su oficialia bendrąja programa.">
+<meta name="theme-color" content="#fff9f0">
+<meta property="og:title" content="Protolabas — mokausi tyrinėdamas">
+<meta property="og:description" content="Simuliacijos ir modeliai 1–12 klasei. Be registracijos. Nemokamai.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23f59e0b'/%3E%3Ccircle cx='24' cy='26' r='7' fill='%23fff'/%3E%3Ccircle cx='42' cy='26' r='7' fill='%23fff'/%3E%3Cpath d='M18 42c4 8 24 8 28 0' stroke='%23fff' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<a class="sr-only" href="#main">Pereiti prie turinio</a>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="./">
+      <span class="brand-mark" aria-hidden="true">✳</span>
+      <span>Protolabas<small data-i18n="brandTag">mokausi tyrinėdamas</small></span>
+    </a>
+    <nav class="topnav" aria-label="Pagrindinė navigacija">
+      <a href="#modules" data-i18n="navLearn">Mokytis</a>
+      <a href="mokytojui.html" data-i18n="navTeachers">Mokytojui</a>
+      <a href="#apie" class="nav-keep" data-i18n="navAbout">Apie</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="chip chip-sun">1 klasė jau veikia · <span data-i18n="soon">Netrukus</span>: 2–12</span>
+        <h1 data-i18n="heroTitle">Mokykis <em>tyrinėdamas</em>, o ne kalimo</h1>
+        <p class="hero-lead" data-i18n="heroLead">Nemokamos lietuviškos simuliacijos 1–12 klasei. Pasuk, pasverk, palaistyk, sudėliok – ir pamatyk, kaip veikia pasaulis.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-lg" href="#modules" data-i18n="startLearning">Pradėti mokytis</a>
+          <a class="btn btn-lg" href="mokytojui.html" data-i18n="howItWorks">Kaip tai veikia</a>
+        </div>
+        <div class="hero-note">
+          <span class="chip chip-leaf">✓ <span data-i18n="noAccount">Be registracijos</span></span>
+          <span class="chip">◍ <span data-i18n="offline">Veikia neprisijungus</span></span>
+          <span class="chip">♥ <span data-i18n="freeOpen">Nemokama · atviras kodas</span></span>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 320 320" role="img" aria-label="Svarstyklės su obuoliais, augalas ir figūros">
+          <circle cx="160" cy="160" r="150" fill="#fff" opacity=".7"/>
+          <circle cx="160" cy="160" r="150" fill="none" stroke="#eadfce" stroke-width="2"/>
+          <g class="float-slow">
+            <rect x="58" y="60" width="86" height="86" rx="26" fill="#dcfce7"/>
+            <text x="101" y="118" font-size="44" text-anchor="middle">🌱</text>
+          </g>
+          <g class="float-fast">
+            <rect x="186" y="52" width="74" height="74" rx="24" fill="#e0f2fe"/>
+            <text x="223" y="103" font-size="38" text-anchor="middle">🔺</text>
+          </g>
+          <g>
+            <rect x="96" y="168" width="128" height="10" rx="5" fill="#7c3aed" opacity=".85"/>
+            <rect x="156" y="176" width="8" height="86" rx="4" fill="#7c3aed" opacity=".85"/>
+            <rect x="126" y="258" width="68" height="10" rx="5" fill="#7c3aed" opacity=".5"/>
+            <circle cx="118" cy="206" r="24" fill="#fef3c7"/>
+            <text x="118" y="215" font-size="24" text-anchor="middle">🍎</text>
+            <circle cx="202" cy="206" r="24" fill="#fce7f3"/>
+            <text x="202" y="215" font-size="24" text-anchor="middle">🍎</text>
+          </g>
+          <g class="float-slow">
+            <circle cx="72" cy="252" r="20" fill="#fde68a"/>
+            <text x="72" y="259" font-size="19" text-anchor="middle">＋</text>
+          </g>
+          <g class="float-fast">
+            <circle cx="256" cy="238" r="22" fill="#ede9fe"/>
+            <text x="256" y="246" font-size="20" text-anchor="middle">＝</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="grades" id="grades">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <h2 data-i18n="gradesTitle">Pasirink klasę</h2>
+          <p data-i18n="gradesLead">1 klasė jau paruošta. Kitos klasės kuriamos palaipsniui – kiekviena pagal savo programą ir amžių.</p>
+        </div>
+      </div>
+      <div class="grade-rail" id="gradeRail" role="list"></div>
+    </div>
+  </section>
+
+  <section class="modules" id="modules">
+    <div class="wrap">
+      <div class="continue" id="continueCard" hidden>
+        <div>
+          <small data-i18n="continueWhere">Ten, kur baigei</small>
+          <b id="continueTitle"></b>
+        </div>
+        <a class="btn btn-sun" id="continueLink" href="#" data-i18n="continue">Tęsti</a>
+      </div>
+
+      <div class="section-head">
+        <div>
+          <h2 id="modulesHeading" data-i18n="modulesTitle">1 klasės moduliai</h2>
+          <p data-i18n="modulesLead">Trumpi, tyrinėjantys užsiėmimai po 7–12 minučių. Kiekvienas atitinka oficialią programą.</p>
+        </div>
+        <div id="gradeProgress" class="chip chip-leaf" hidden></div>
+      </div>
+
+      <div class="filters" id="filters" role="group" aria-label="Dalykų filtras"></div>
+      <div class="grid grid-3" id="moduleGrid" aria-live="polite"></div>
+      <noscript><p>Šiai platformai reikia „JavaScript“. Turinys – atviro kodo, todėl jį galima skaityti ir tiesiogiai <code>content/</code> kataloge.</p></noscript>
+    </div>
+  </section>
+
+  <section class="band band-tint" id="apie">
+    <div class="wrap">
+      <h2 data-i18n="principlesTitle">Kodėl taip, o ne kitaip</h2>
+      <p style="color:var(--muted);max-width:60ch" data-i18n="principlesLead">Platforma remiasi „Švietimo kelrodžio 2035“ principais ir mokymosi tyrimais. Ne daugiau temų – daugiau gylio.</p>
+      <div class="principles">
+        <div class="principle"><div class="n">01</div><h3 data-i18n="p1t">Mažiau temų, daugiau gylio</h3><p data-i18n="p1d">Vienas modulis – viena idėja, tyrinėjama keliais būdais, kol ji tampa sava.</p></div>
+        <div class="principle"><div class="n">02</div><h3 data-i18n="p2t">Konkretu → vaizdu → abstraktu</h3><p data-i18n="p2d">Pirmiausia čiuopiame ir judiname, paskui piešiame, tik tada – simboliai ir skaičiai.</p></div>
+        <div class="principle"><div class="n">03</div><h3 data-i18n="p3t">Klaida – informacija</h3><p data-i18n="p3d">Grįžtamasis ryšys sako, kas nutiko ir ką daryti kitaip. Niekada ne „blogai“.</p></div>
+        <div class="principle"><div class="n">04</div><h3 data-i18n="p4t">Be paskyros, be sekimo</h3><p data-i18n="p4d">Pažanga saugoma tik tavo naršyklėje. Jokių slapukų, jokio profiliavimo.</p></div>
+      </div>
+      <div class="progress-tools">
+        <h3>Mano pažanga</h3>
+        <p>Pažanga saugoma tik šiame įrenginyje – be paskyros ir be sekimo. Jei nori tęsti kitame įrenginyje, išsisaugok failą ir ten jį įkelk.</p>
+        <div class="progress-actions">
+          <button class="btn btn-sun" id="exportProgress" type="button">⤓ Išsaugoti pažangą</button>
+          <label class="btn" for="importProgress">⤒ Įkelti pažangą</label>
+          <input id="importProgress" type="file" accept="application/json,.json" hidden>
+          <button class="btn btn-ghost" id="resetProgress" type="button">Išvalyti</button>
+        </div>
+        <p id="progressMsg" class="progress-msg" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div>
+      <b>Protolabas</b> · <span data-i18n="footNote">Atviras, nemokamas projektas. Turinys – CC BY-SA 4.0, kodas – MIT.</span>
+    </div>
+    <div style="display:flex;gap:1.2rem;flex-wrap:wrap">
+      <a href="mokytojui.html" data-i18n="forTeachers">Mokytojui ir tėvams</a>
+      <a href="https://github.com/One-Man-Company/protolabas">GitHub</a>
+      <a href="guidelines/svietimas-1.md">Švietimas #1</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

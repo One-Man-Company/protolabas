@@ -1,0 +1,127 @@
+{
+  "id": "formos-ir-simetrija",
+  "grade": 1,
+  "subject": "matematika",
+  "subjectLabel": "Matematika",
+  "chipClass": "chip-berry",
+  "title": "Formos ir simetrija",
+  "tagline": "Rask taisyklę ir užbaik veidrodinį paveikslą",
+  "icon": "🔷",
+  "color": "berry",
+  "minutes": 9,
+  "curriculum": {
+    "program": "Matematikos bendroji programa (atnaujinta 2022 m.)",
+    "area": "Geometrija ir matavimai",
+    "codes": [
+      "Matematika 24.3.3.1",
+      "Dailė 23.1.7",
+      "Dailė A1.2"
+    ],
+    "note": "Figūrų atpažinimas, dėsningumai, simetrija.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13",
+    "S1-09"
+  ],
+  "objectives": [
+    "Atkartoti figūrą pagal pavyzdį.",
+    "Pastebėti simetrijos ašį ir užbaigti antrą pusę.",
+    "Paaiškinti savo taisyklę kitam."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Simetrija – veidrodis",
+      "text": "Jei perlenksi lapą per vidurį, abi pusės sutaps. Tai simetrija.",
+      "visual": "🦋",
+      "bullets": [
+        "Drugelio sparnai – simetriški.",
+        "Simetrijos ašis eina per vidurį.",
+        "Kairė pusė atspindi dešinę."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "shapes",
+      "title": "Padaryk tokią pat figūrą",
+      "text": "Žiūrėk į kairę ir užpildyk dešinę taip pat.",
+      "config": {
+        "size": 3
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Kuri raidė yra simetriška?",
+      "options": [
+        "A",
+        "S",
+        "R"
+      ],
+      "answer": 0,
+      "hint": "Įsivaizduok, kad perlenki per vidurį.",
+      "explain": "A turi vertikalią simetrijos ašį."
+    },
+    {
+      "type": "quiz",
+      "question": "Kas toliau? 🔴 🔵 🔴 🔵 …",
+      "options": [
+        "🔴",
+        "🔵",
+        "🟢"
+      ],
+      "answer": 0,
+      "hint": "Sakyk balsu: raudonas, mėlynas, raudonas…",
+      "explain": "Toliau raudonas, nes raudoni eina kas antras."
+    },
+    {
+      "type": "reflect",
+      "question": "Kur dar matai simetriją?",
+      "chips": [
+        "Lange",
+        "Drugelyje",
+        "Savo veide",
+        "Knygoje",
+        "Pastate"
+      ],
+      "note": "Simetrija – visur aplinkui."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Dėsningumų atpažinimas, simetrijos ašies supratimas, figūrų kompozicija.",
+    "priemones": [
+      "veidrodis",
+      "spalvoti popieriaus langeliai",
+      "lankstymui skirtas lapas"
+    ],
+    "eiga": [
+      "Perlenkite popierių ir parodykite, kaip atsiranda veidrodinė pusė.",
+      "Leiskite vaikui sudėlioti figūrą iš langelių pagal pavyzdį.",
+      "Paprašykite sugalvoti savo simetrišką raštą."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Naudokite 2×2 tinklelį su 1–2 langeliais.",
+      "issukis": "Paprašykite simetrijos dviejų ašių atžvilgiu."
+    },
+    "refleksija": "Klauskite: kaip paaiškintum draugui, kas yra simetrija?"
+  },
+  "outcome": "Vaikas bent 4 iš 5 kartų nurodo simetrijos ašį arba ją atkuria.",
+  "designNotes": {
+    "branduolineIdeja": "Simetrija – tai dvi vienodos pusės, kurios sutampa perlenkus.",
+    "simTipas": "manipulate",
+    "kognityvineApkrova": "Viena figūra ekrane, ašis paryškinta, nereikia skaičiuoti.",
+    "ux": "Ašis rodoma kaip ryški linija (signaling), ne kaip legenda apačioje.",
+    "evidence": [
+      "P03",
+      "P01"
+    ]
+  }
+}

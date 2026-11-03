@@ -1,0 +1,23 @@
+// Side-effect imports register every simulation. Add new sims here.
+import './tenframe.js';
+import './bonds.js';
+import './placevalue.js';
+import './shapes.js';
+import './measure.js';
+import './letters.js';
+import './reading.js';
+import './seasons.js';
+import './plant.js';
+import './sorting.js';
+import './traffic.js';
+import './fairshare.js';
+import './nim.js';
+import './rhythm.js';
+import './roles.js';
+import './scenarios.js';
+import './melody.js';
+import './move.js';
+import './dance.js';
+import './robot.js';
+import './colors.js';
+import './build.js';

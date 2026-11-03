@@ -1,0 +1,132 @@
+{
+  "id": "sudetis-iki-10",
+  "grade": 1,
+  "subject": "matematika",
+  "subjectLabel": "Matematika",
+  "chipClass": "chip-sky",
+  "title": "Sudėtis iki 10",
+  "tagline": "Svarstyklės parodys, kaip skaičiai jungiasi",
+  "icon": "⚖️",
+  "color": "sky",
+  "minutes": 10,
+  "curriculum": {
+    "program": "Matematikos bendroji programa (atnaujinta 2022 m.)",
+    "area": "Skaičiai ir skaičiavimai",
+    "codes": [
+      "Matematika 24.1.1.2",
+      "Matematika A1.2"
+    ],
+    "note": "Sudėtis ir atimtis iki 10, skaičiaus skaidymas, lygybės supratimas.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13",
+    "S1-09"
+  ],
+  "objectives": [
+    "Skaidyti skaičių 10 į dvi dalis.",
+    "Paaiškinti, kodėl abi svarstyklių pusės lygios.",
+    "Rasti trūkstamą dėmenį."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Dvi dalys – vienas skaičius",
+      "text": "Dešimt gali būti 6 ir 4. Arba 7 ir 3. Arba 5 ir 5.",
+      "visual": "⚖️",
+      "bullets": [
+        "Kai abi pusės lygios, svarstyklės stovi tiesiai.",
+        "Dalis + dalis = visuma.",
+        "Jei viena pusė sunkesnė, ji nusileidžia."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "bonds",
+      "title": "Sulygink svarstykles",
+      "text": "Kairėje jau yra obuolių. Pridėk dešinėje tiek, kad būtų lygiai 10.",
+      "config": {
+        "target": 10,
+        "lefts": [
+          6,
+          7,
+          8,
+          9,
+          5
+        ]
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "7 ir kiek – viso 10?",
+      "options": [
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "hint": "Suskaičiuok nuo 7 iki 10.",
+      "explain": "7 + 3 = 10."
+    },
+    {
+      "type": "quiz",
+      "question": "Turėjai 9 kamuoliukus, 4 padovanojai. Kiek liko?",
+      "options": [
+        "5",
+        "6",
+        "4"
+      ],
+      "answer": 0,
+      "hint": "Atimk: 9 – 4.",
+      "explain": "Liko 5 kamuoliukai."
+    },
+    {
+      "type": "reflect",
+      "question": "Kas padėjo rasti trūkstamą skaičių?",
+      "chips": [
+        "Skaičiavau pirštais",
+        "Prisiminiau porą",
+        "Skaičiavau nuo didesnio",
+        "Žiūrėjau į svarstykles"
+      ],
+      "note": "Skirtingi būdai veda prie to paties atsakymo."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Skaičiaus 10 sandara, sudėties ir atimties ryšys, lygybės idėja.",
+    "priemones": [
+      "svarstyklės arba dvi lėkštės",
+      "10 kamuoliukų arba kaštonų"
+    ],
+    "eiga": [
+      "Pirmiausia leiskite vaikui laisvai dėti daiktus į abi puses ir stebėti, kada lygu.",
+      "Tada užduokite tikslinį klausimą: kiek trūksta iki 10?",
+      "Užbaikite piešiniu: 6 + 4 = 10, 7 + 3 = 10."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Naudokite tik 5 ir 5, paskui 6 ir 4 – mažiau variantų.",
+      "issukis": "Paklauskite: kiek būtų, jei pridėtume dar 2?"
+    },
+    "refleksija": "Klauskite: kaip žinai, kad abi pusės lygios, neskaičiuodamas kiekvieno obuolio?"
+  },
+  "outcome": "Per 5 raundus vaikas bent 4 kartus suranda trūkstamą dėmenį taip, kad suma būtų 10.",
+  "designNotes": {
+    "branduolineIdeja": "Dešimtuką galima sudaryti iš dviejų dalių įvairiais būdais.",
+    "simTipas": "manipulate",
+    "kognityvineApkrova": "Rodoma tik viena pora ir viena suma; pagalbinės juostos nerodomos iki pirmos klaidos.",
+    "ux": "Vilkimo taikiniai dideli; veikia ir bakstelėjimas, ne tik tempimas.",
+    "evidence": [
+      "P39",
+      "P42",
+      "P38"
+    ]
+  }
+}

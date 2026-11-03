@@ -1,0 +1,123 @@
+{
+  "id": "augalo-gyvenimas",
+  "grade": 1,
+  "subject": "gamta",
+  "subjectLabel": "Gamtos mokslai",
+  "chipClass": "chip-leaf",
+  "title": "Augalo gyvenimas",
+  "tagline": "Vanduo ir šviesa – du raktai į žiedą",
+  "icon": "🌱",
+  "color": "leaf",
+  "minutes": 10,
+  "curriculum": {
+    "program": "Pasaulio pažinimo bendroji programa (atnaujinta 2022 m.)",
+    "area": "Gamtos objektų ir reiškinių pažinimas",
+    "codes": [
+      "Gamtos mokslai 26.2.3",
+      "Gamtos mokslai D1.4"
+    ],
+    "note": "Augalų augimo sąlygos, kintamųjų poveikis, stebėjimas ir duomenų fiksavimas.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13"
+  ],
+  "objectives": [
+    "Įvardyti, ko augalui reikia augti.",
+    "Pakeisti vieną sąlygą ir pastebėti padarinį.",
+    "Paaiškinti, kodėl per daug vandens kenkia."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Ko reikia augalui?",
+      "text": "Augalui reikia vandens, šviesos ir šilumos. Bet ne per daug.",
+      "visual": "🌱",
+      "bullets": [
+        "Per mažai vandens – lapai nuvysta.",
+        "Per daug vandens – lapai gelsta.",
+        "Mažai šviesos – augalas blyškus."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "plant",
+      "title": "Užaugink žiedą",
+      "text": "Keisk vandenį ir šviesą, tada praleisk savaitę.",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Augalas laistomas kasdien labai daug. Kas nutiks?",
+      "options": [
+        "Lapai gels ir vysta",
+        "Augs greičiau",
+        "Nieko nepasikeis"
+      ],
+      "answer": 0,
+      "hint": "Šaknys negali kvėpuoti per daug šlapioje žemėje.",
+      "explain": "Per daug vandens kenkia šaknims."
+    },
+    {
+      "type": "quiz",
+      "question": "Kuris augalas gaus daugiausia šviesos?",
+      "options": [
+        "Ant palangės",
+        "Spintoje",
+        "Po lova"
+      ],
+      "answer": 0,
+      "hint": "Šviesa ateina pro langą.",
+      "explain": "Ant palangės šviesiausia."
+    },
+    {
+      "type": "reflect",
+      "question": "Ką pastebėjai, kai keitei vieną sąlygą?",
+      "chips": [
+        "Augalas augo greičiau",
+        "Lapai pagelto",
+        "Niekas nepasikeitė",
+        "Žiedas nepasirodė"
+      ],
+      "note": "Mokslininkai taip ir dirba: keičia vieną dalyką ir stebi."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Sąlygų ir padarinių ryšys; paprastas eksperimentas su vienu kintamuoju.",
+    "priemones": [
+      "du vienodi augalai",
+      "vanduo",
+      "tamsi dėžė"
+    ],
+    "eiga": [
+      "Pasodinkite du augalus ir laikykite skirtingomis sąlygomis.",
+      "Kas antrą dieną pieškite, kaip jie atrodo.",
+      "Aptarkite: kodėl vienas auga geriau?"
+    ],
+    "diferencijavimas": {
+      "pagalba": "Stebėkite tik vieną augalą ir vieną sąlygą (vanduo).",
+      "issukis": "Paprašykite sugalvoti eksperimentą su šviesa."
+    },
+    "refleksija": "Klauskite: kaip sužinojai, kuri sąlyga svarbiausia?"
+  },
+  "outcome": "Vaikas bent 4 iš 5 kartų nurodo, ko augalui reikia, kad jis augtų, ir ką tai lemia.",
+  "designNotes": {
+    "branduolineIdeja": "Augalui reikia šviesos ir vandens, o jų kiekis keičia augimą.",
+    "simTipas": "variables",
+    "kognityvineApkrova": "Tik du kintamieji (šviesa, vanduo), vienas augalas ekrane.",
+    "ux": "Pokytis matomas iškart po kiekvieno bandymo, be ilgo laukimo.",
+    "evidence": [
+      "P17",
+      "P18",
+      "P12"
+    ]
+  }
+}

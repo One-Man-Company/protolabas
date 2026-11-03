@@ -1,0 +1,123 @@
+{
+  "id": "skaiciai-iki-10",
+  "grade": 1,
+  "subject": "matematika",
+  "subjectLabel": "Matematika",
+  "chipClass": "chip-leaf",
+  "title": "Skaičiai iki 10",
+  "tagline": "Skaičiuok obuolius ir atpažink kiekį iš karto",
+  "icon": "🍎",
+  "color": "leaf",
+  "minutes": 9,
+  "curriculum": {
+    "program": "Matematikos bendroji programa (atnaujinta 2022 m.)",
+    "area": "Skaičiai ir skaičiavimai",
+    "codes": [
+      "Matematika 24.1.1.1",
+      "Matematika A1.2",
+      "Matematika B2.2"
+    ],
+    "note": "Kiekio ir skaičiaus ryšys, skaičiavimas pirmyn ir atgal, subitizacija.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13",
+    "S1-09"
+  ],
+  "objectives": [
+    "Susieti daiktų kiekį su skaičiumi iki 10.",
+    "Suskaičiuoti daiktus neliesdamas kiekvieno atskirai, kai jų nedaug.",
+    "Pasakyti, kiek liko, kai keli daiktai dingsta."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Skaičius – tai kiekis",
+      "text": "Skaičius sako, kiek ko yra. Pažiūrėk: vienas obuolys, du obuoliai, trys.",
+      "visual": "🍎",
+      "bullets": [
+        "Skaičiuojame: 1, 2, 3, 4, 5.",
+        "Paskutinis pasakytas skaičius – tai kiekis.",
+        "Kartais kiekį matai iš karto, be skaičiavimo."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "tenframe",
+      "title": "Kiek obuolių?",
+      "text": "Suskaičiuok ir paspausk skaičių.",
+      "config": {
+        "rounds": 5
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Ant lėkštės 4 obuoliai. Vieną suvalgei. Kiek liko?",
+      "options": [
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 0,
+      "hint": "Paminkštink: 4, o paskui vienu mažiau.",
+      "explain": "Liko 3, nes vienas obuolys dingo."
+    },
+    {
+      "type": "sim",
+      "sim": "tenframe",
+      "title": "Pažiūrėk ir atsimink",
+      "text": "Obuoliai pasirodys trumpam. Pasakyk, kiek jų buvo.",
+      "config": {
+        "rounds": 4
+      }
+    },
+    {
+      "type": "reflect",
+      "question": "Kaip tau lengviausia skaičiuoti?",
+      "chips": [
+        "Skaičiuoti po vieną",
+        "Žiūrėti ir atpažinti iš karto",
+        "Skaičiuoti pirštais",
+        "Skaičiuoti balsu"
+      ],
+      "note": "Nėra vieno teisingo atsakymo. Visi būdai geri."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Kiekio ir skaičiaus ryšys iki 10, skaičiavimas be pagalbinių priemonių, subitizacija.",
+    "priemones": [
+      "10 vienodų daiktų (kamšteliai, kaštonai)",
+      "skaičių kortelės 0–10"
+    ],
+    "eiga": [
+      "Pradžioje išdėliokite daiktus į dešimtukų rėmelį ir skaičiuokite kartu balsu.",
+      "Leiskite vaikui spausti atsakymą savarankiškai – klaida yra informacija, ne bausmė.",
+      "Po simuliacijos paklauskite: kaip žinai, kad tiek? Paprašykite parodyti."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Sumažinkite kiekį iki 5, leiskite liesti kiekvieną daiktą.",
+      "issukis": "Paprašykite pasakyti, kiek trūksta iki 10."
+    },
+    "refleksija": "Paklauskite, kuris būdas greitesnis: skaičiuoti po vieną ar matyti iš karto."
+  },
+  "outcome": "Per 5 simuliacijos raundus vaikas bent 4 kartus teisingai nurodo kiekį iki 10 neskaičiuodamas po vieną.",
+  "designNotes": {
+    "branduolineIdeja": "Skaičius žymi kiekį, o nedidelį kiekį galima atpažinti iš karto.",
+    "simTipas": "vote",
+    "kognityvineApkrova": "Ne daugiau kaip 10 objektų vienu metu, be teksto simuliacijos metu.",
+    "ux": "Skaičių mygtukai ≥44 px, atsakymas patvirtinamas iškart, be laiko spaudimo.",
+    "evidence": [
+      "P35",
+      "P13",
+      "P10"
+    ]
+  }
+}

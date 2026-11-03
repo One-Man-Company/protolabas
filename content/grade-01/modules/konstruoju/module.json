@@ -1,0 +1,122 @@
+{
+  "id": "konstruoju",
+  "grade": 1,
+  "subject": "technologijos",
+  "subjectLabel": "Technologijos",
+  "chipClass": "chip-clay",
+  "title": "Konstruoju bokštą",
+  "tagline": "Kodėl vieni bokštai stovi, o kiti griūva?",
+  "icon": "🏗️",
+  "color": "clay",
+  "minutes": 10,
+  "curriculum": {
+    "program": "Technologijų bendroji programa (atnaujinta 2022 m.)",
+    "area": "Sprendimo įgyvendinimas ar prototipavimas",
+    "codes": [
+      "Technologijos 23.3.3"
+    ],
+    "note": "Stabilumas, pusiausvyra, konstrukcijos bandymas ir tobulinimas.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13"
+  ],
+  "objectives": [
+    "Paaiškinti, kodėl konstrukcija griūva.",
+    "Pastatyti stabilią konstrukciją.",
+    "Pagerinti konstrukciją po pirmo bandymo."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Stabilumas – tai atrama",
+      "text": "Bokštas stovi, kai kiekvienas blokas remiasi apačia, o svoris eina per vidurį.",
+      "visual": "🏗️",
+      "bullets": [
+        "Platus pagrindas – stabilesnis.",
+        "Blokas, kabantis ore, nukris.",
+        "Inžinieriai bando ir taiso daug kartų."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "build",
+      "title": "Pastatyk bokštą",
+      "text": "Dėk blokus taip, kad kiekvienas remtųsi apatiniu.",
+      "config": {
+        "goal": 6
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Kodėl bokštas griūva?",
+      "options": [
+        "Blokas per daug išsikiša",
+        "Blokai per sunkūs",
+        "Per daug spalvų"
+      ],
+      "answer": 0,
+      "hint": "Pagalvok apie atramą.",
+      "explain": "Kai blokas neturi atramos, jis krenta."
+    },
+    {
+      "type": "quiz",
+      "question": "Kuris pagrindas stabilesnis?",
+      "options": [
+        "Platus",
+        "Siauras",
+        "Aukštas"
+      ],
+      "answer": 0,
+      "hint": "Platesnė atrama – mažesnis siūbavimas.",
+      "explain": "Platus pagrindas paskirsto svorį."
+    },
+    {
+      "type": "reflect",
+      "question": "Ką pakeistum, kad bokštas būtų aukštesnis?",
+      "chips": [
+        "Platesnį pagrindą",
+        "Tvirtesnius blokus",
+        "Didesnį bloką apačioje",
+        "Mažiau blokų"
+      ],
+      "note": "Inžinerija – bandymų ir tobulinimo procesas."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Konstravimo principai: atrama, pusiausvyra, bandymas ir tobulinimas.",
+    "priemones": [
+      "medinės kaladėlės arba kartoninės dėžutės",
+      "liniuotė"
+    ],
+    "eiga": [
+      "Leiskite vaikui statyti be nurodymų ir stebėti griūtį.",
+      "Paklauskite, kodėl griuvo, ir paprašykite pakeisti vieną dalyką.",
+      "Palyginkite pirmą ir antrą konstrukciją."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Tik 3 blokai, platus pagrindas.",
+      "issukis": "Bokštas su tiltu tarp dviejų atramų."
+    },
+    "refleksija": "Klauskite: kas padėjo pastatyti aukštesnį bokštą?"
+  },
+  "outcome": "Vaikas pastato konstrukciją, kuri išlaiko bent vieną papildomą detalę, ir paaiškina, kas ją laiko.",
+  "designNotes": {
+    "branduolineIdeja": "Konstrukcija laikosi, kai turi atramą ir tvirtą pagrindą.",
+    "simTipas": "build",
+    "kognityvineApkrova": "Viena medžiaga ir vienas tikslas (bokštas, tiltas).",
+    "ux": "Griūtis parodoma švelniai, be garso ir be „pralaimėjimo“ ekrano.",
+    "evidence": [
+      "P16",
+      "P14"
+    ]
+  }
+}

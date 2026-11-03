@@ -1,0 +1,121 @@
+{
+  "id": "teisingas-dalijimas",
+  "grade": 1,
+  "subject": "dorinis",
+  "subjectLabel": "Tikyba / etika",
+  "chipClass": "chip-berry",
+  "title": "Teisingas dalijimas",
+  "tagline": "Kaip padalinti, kad abiem būtų sąžininga?",
+  "icon": "🍰",
+  "color": "berry",
+  "minutes": 10,
+  "curriculum": {
+    "program": "Dorinio ugdymo bendroji programa (atnaujinta 2022 m.)",
+    "area": "Tarpusavio santykiai",
+    "codes": [
+      "Etika 22.2.1",
+      "Matematika 24.1.1.2"
+    ],
+    "note": "Teisingumo idėja, dalijimasis, kito perspektyvos supratimas (divide-and-choose).",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13"
+  ],
+  "objectives": [
+    "Paaiškinti, ką reiškia dalinti teisingai.",
+    "Rasti dalijimo būdą, kuris tenkina abu.",
+    "Pastebėti, kad situacija gali būti neteisinga, net jei taisyklės laikomasi."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Sąžininga – kai abiem gerai",
+      "text": "Jei dalini tortą ir kitas renkasi pirmas, sąžiningiausia padalinti po lygiai.",
+      "visual": "🍰",
+      "bullets": [
+        "Dalinkis taip, kad norėtum gauti bet kurią dalį.",
+        "Kai po lygiai neįmanoma, susitarkite.",
+        "Teisingumas – ne tik taisyklė, bet ir jausmas."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "fairshare",
+      "title": "Padalink tortą",
+      "text": "Tu dalini, Rokas renkasi pirmas. Kaip pasielgsi?",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Du vaikai dalijasi 8 obuolius. Kaip bus sąžiningiausia?",
+      "options": [
+        "Po 4",
+        "Vienam 6, kitam 2",
+        "Visi tau"
+      ],
+      "answer": 0,
+      "hint": "Padalink po lygiai.",
+      "explain": "Po 4 – abiem vienodai."
+    },
+    {
+      "type": "quiz",
+      "question": "Jei dalini ir kitas renkasi pirmas, kokią dalį darysi sau?",
+      "options": [
+        "Lygiai didelę",
+        "Mažiausią",
+        "Didžiausią"
+      ],
+      "answer": 0,
+      "hint": "Daryk taip, kad abi dalys būtų vertos rinktis.",
+      "explain": "Kai dalys lygios, nesvarbu, kurią rinksis kitas."
+    },
+    {
+      "type": "reflect",
+      "question": "Ar visada įmanoma padalinti po lygiai?",
+      "chips": [
+        "Taip",
+        "Ne",
+        "Kartais reikia susitarti",
+        "Galima padalinti pusiau gabalėlį"
+      ],
+      "note": "Kai pavienių daiktų nelyginis skaičius, reikia kito sprendimo."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Teisingumo samprata per konkrečią dalijimosi situaciją (divide-and-choose).",
+    "priemones": [
+      "8 vienodi daiktai",
+      "dvi lėkštės"
+    ],
+    "eiga": [
+      "Leiskite vaikui dalinti, o jūs rinkitės pirmi – taip pajus taisyklę.",
+      "Aptarkite: kodėl verta dalinti po lygiai?",
+      "Pabandykite nelyginį skaičių ir ieškokite sprendimo."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Pradėkite nuo 4 daiktų ir dviejų lėkščių.",
+      "issukis": "7 daiktai – kaip pasielgti sąžiningai?"
+    },
+    "refleksija": "Klauskite: kaip jauteisi, kai tau teko mažesnė dalis?"
+  },
+  "outcome": "Vaikas bent 4 iš 5 kartų padalija daiktus po lygiai ir paaiškina, kaip patikrino, kad po lygiai.",
+  "designNotes": {
+    "branduolineIdeja": "Dalytis teisinga – reiškia dalyti po lygiai, o kiekį galima patikrinti.",
+    "simTipas": "fairshare",
+    "kognityvineApkrova": "Du dalyviai, iki 10 daiktų; be likučio sąvokos.",
+    "ux": "„Aš dalinu, tu renkiesi“ mechanika rodoma kaip žaidimas su dviem ėjimais.",
+    "evidence": [
+      "P28",
+      "P29"
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "matuoju-ilgi",
+  "grade": 1,
+  "subject": "matematika",
+  "subjectLabel": "Matematika",
+  "chipClass": "chip-clay",
+  "title": "Matuoju ilgį",
+  "tagline": "Lygink, rikiuok ir matuok liniuote",
+  "icon": "📏",
+  "color": "clay",
+  "minutes": 9,
+  "curriculum": {
+    "program": "Matematikos bendroji programa (atnaujinta 2022 m.)",
+    "area": "Geometrija ir matavimai",
+    "codes": [
+      "Matematika 24.3.1.2",
+      "Matematika A1.4"
+    ],
+    "note": "Ilgio palyginimas, matavimas centimetrais, matavimo nuo nulio taisyklė.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13",
+    "S1-09"
+  ],
+  "objectives": [
+    "Palyginti objektus pagal ilgį.",
+    "Išmatuoti ilgį liniuote nuo nulio.",
+    "Sukalbėti tris daiktus nuo trumpiausio iki ilgiausio."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Ilgis – tai, kiek tęsiasi",
+      "text": "Liniuotė padeda pasakyti, kiek centimetrų. Pradėk visada nuo nulio.",
+      "visual": "📏",
+      "bullets": [
+        "Trumpesnis, ilgesnis, vienodo ilgio.",
+        "Matuojame centimetrais (cm).",
+        "Nuo nulio iki galo – tiek ir yra."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "measure",
+      "title": "Palygink ir išmatuok",
+      "text": "Pirmiausia rask ilgesnę juostą, paskui išmatuok pieštuką.",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Pieštukas prasideda ties 0 ir baigiasi ties 8. Kiek jis ilgas?",
+      "options": [
+        "7 cm",
+        "8 cm",
+        "9 cm"
+      ],
+      "answer": 1,
+      "hint": "Skaičiuok nuo 0, ne nuo 1.",
+      "explain": "8 cm, nes galas ties 8."
+    },
+    {
+      "type": "quiz",
+      "question": "Kuri juosta trumpiausia?",
+      "options": [
+        "Raudona (3 cm)",
+        "Mėlyna (7 cm)",
+        "Geltona (5 cm)"
+      ],
+      "answer": 0,
+      "hint": "Mažiausias skaičius – trumpiausia.",
+      "explain": "3 cm yra mažiausiai, todėl raudona trumpiausia."
+    },
+    {
+      "type": "reflect",
+      "question": "Ką galėtum išmatuoti namuose?",
+      "chips": [
+        "Stalą",
+        "Pieštuką",
+        "Knygą",
+        "Durų plotį",
+        "Žaislą"
+      ],
+      "note": "Matuoti galima beveik viską."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Ilgio matavimas, palyginimas ir rikiavimas; matavimo nuo nulio taisyklė.",
+    "priemones": [
+      "liniuotė",
+      "įvairaus ilgio juostelės ar virvelės"
+    ],
+    "eiga": [
+      "Pirmiausia lyginkite akimis, tada tikrinkite liniuote.",
+      "Parodykite dažną klaidą – matuoti nuo 1, o ne nuo 0.",
+      "Leiskite išmatuoti tris daiktus ir užrašyti rezultatus."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Matuokite tik sveikus centimetrus ir trumpus daiktus.",
+      "issukis": "Paprašykite rasti daiktą, kuris yra lygiai 10 cm."
+    },
+    "refleksija": "Klauskite: kodėl svarbu pradėti nuo nulio?"
+  },
+  "outcome": "Vaikas bent 4 iš 5 kartų palygina du ilgius ir pasako, kuris ilgesnis, remdamasis matavimu.",
+  "designNotes": {
+    "branduolineIdeja": "Ilgis matuojamas vienodais vienetais, pradedant nuo to paties taško.",
+    "simTipas": "manipulate",
+    "kognityvineApkrova": "Du objektai, viena liniuotė; be kitų matavimo vienetų.",
+    "ux": "Matavimo pradžia fiksuojama automatiškai, kad vaikas nesuktų dėmesio į techniką.",
+    "evidence": [
+      "P14",
+      "P13"
+    ]
+  }
+}

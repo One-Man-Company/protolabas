@@ -1,0 +1,120 @@
+{
+  "id": "saugus-kelias",
+  "grade": 1,
+  "subject": "visuomeninis",
+  "subjectLabel": "Visuomeninis ugdymas",
+  "chipClass": "chip-plum",
+  "title": "Saugus kelias",
+  "tagline": "Sudėliok veiksmus teisinga tvarka",
+  "icon": "🚦",
+  "color": "plum",
+  "minutes": 9,
+  "curriculum": {
+    "program": "Visuomeninio ugdymo bendroji programa (atnaujinta 2022 m.)",
+    "area": "Saugumas ir sprendimų priėmimas",
+    "codes": [
+      "Gyvenimo įgūdžiai 24.4"
+    ],
+    "note": "Saugaus ėjimo per gatvę seka, šviesoforo ir perėjos taisyklės.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13"
+  ],
+  "objectives": [
+    "Įvardyti saugaus ėjimo per gatvę veiksmų seką.",
+    "Paaiškinti, kodėl reikia žiūrėti į abi puses.",
+    "Saugiai pereiti per perėją simuliacijoje."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Stok, žiūrėk, eik",
+      "text": "Prieš eidamas per gatvę sustok. Pažiūrėk į kairę, paskui į dešinę. Tik tada eik.",
+      "visual": "🚦",
+      "bullets": [
+        "Perėja – saugiausia vieta pereiti.",
+        "Raudona – stok. Žalia – eik, bet pasižiūrėk.",
+        "Niekada nebėk per gatvę."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "traffic",
+      "title": "Pereik saugiai",
+      "text": "Sudėliok veiksmus iš eilės. Tvarka svarbi.",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Ką daryti pirmiausia prie perėjos?",
+      "options": [
+        "Sustoti",
+        "Bėgti",
+        "Kalbėti telefonu"
+      ],
+      "answer": 0,
+      "hint": "Pirmas žingsnis – sustoti ir apsižvalgyti.",
+      "explain": "Pirmiausia sustok ir įvertink aplinką."
+    },
+    {
+      "type": "quiz",
+      "question": "Užsidegė žalia šviesa. Ar galima iškart eiti?",
+      "options": [
+        "Taip, bet pasižiūrėjus",
+        "Ne, niekada",
+        "Bėgte"
+      ],
+      "answer": 0,
+      "hint": "Žalia leidžia eiti, bet vairuotojas gali klysti.",
+      "explain": "Pasižiūrėk į abi puses net ir žalioje šviesoje."
+    },
+    {
+      "type": "reflect",
+      "question": "Kur tu eini per gatvę?",
+      "chips": [
+        "Per perėją",
+        "Kur yra šviesoforas",
+        "Kur nėra mašinų",
+        "Su suaugusiuoju"
+      ],
+      "note": "Saugiausia – perėja ir kartu su suaugusiuoju."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Saugaus elgesio seka ir priežastinis supratimas, ne taisyklių kalimas.",
+    "priemones": [
+      "gatvės maketas arba nuotraukos",
+      "spalvoti šviesoforo signalai"
+    ],
+    "eiga": [
+      "Pirmiausia vaidinkite situaciją klasėje.",
+      "Tada leiskite sudėlioti veiksmų seką simuliacijoje.",
+      "Aptarkite, kodėl tvarka negali būti kitokia."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Tik šviesoforo situacija, 3 veiksmai.",
+      "issukis": "Perėja be šviesoforo ir su mašinomis iš abiejų pusių."
+    },
+    "refleksija": "Klauskite: kodėl žiūrime į kairę pirmiausia?"
+  },
+  "outcome": "Vaikas bent 4 iš 5 kartų pasirenka saugų ėjimą perėjoje ir paaiškina, kodėl jis saugus.",
+  "designNotes": {
+    "branduolineIdeja": "Saugu kelti kelią ten, kur yra perėja ir dega žalias signalas.",
+    "simTipas": "scenario",
+    "kognityvineApkrova": "Viena situacija, du galimi veiksmai.",
+    "ux": "Nesaugus pasirinkimas nebaudžiamas – parodoma pasekmė ir leidžiama bandyti dar kartą.",
+    "evidence": [
+      "P43",
+      "P26"
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": "skaiciai-iki-20",
+  "grade": 1,
+  "subject": "matematika",
+  "subjectLabel": "Matematika",
+  "chipClass": "chip-plum",
+  "title": "Skaičiai iki 20",
+  "tagline": "Dešimtukai ir vienetai – kaip sudedamosios dalys",
+  "icon": "🧱",
+  "color": "plum",
+  "minutes": 10,
+  "curriculum": {
+    "program": "Matematikos bendroji programa (atnaujinta 2022 m.)",
+    "area": "Skaičiai ir skaičiavimai",
+    "codes": [
+      "Matematika 24.1.1.1",
+      "Matematika A1.3"
+    ],
+    "note": "Dešimtainė pozicinė sistema, dešimtukų ir vienetų skyrimas, skaičiai 11–20.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13",
+    "S1-09"
+  ],
+  "objectives": [
+    "Paaiškinti, kad 14 – tai vienas dešimtukas ir 4 vienetai.",
+    "Sudėlioti skaičių 11–20 iš dešimtukų ir vienetų.",
+    "Perskaityti skaičių iš sudėliotų blokų."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Dešimtukas – tai grupė",
+      "text": "Kai turime 10 lazdelių, jas surišame į vieną ryšulį. Tas ryšulys vadinasi dešimtukas.",
+      "visual": "🧱",
+      "bullets": [
+        "1 dešimtukas = 10 vienetų.",
+        "14 – tai 1 dešimtukas ir 4 vienetai.",
+        "20 – tai 2 dešimtukai ir 0 vienetų."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "placevalue",
+      "title": "Sukurk skaičių",
+      "text": "Pridėk dešimtukų ir vienetų tiek, kiek reikia.",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Kiek vienetų turi skaičius 17?",
+      "options": [
+        "1",
+        "7",
+        "10"
+      ],
+      "answer": 1,
+      "hint": "Pirmas skaitmuo – dešimtys, antras – vienetai.",
+      "explain": "17 = 1 dešimtukas + 7 vienetai."
+    },
+    {
+      "type": "quiz",
+      "question": "Kuris skaičius didesnis: 12 ar 21?",
+      "options": [
+        "12",
+        "21",
+        "Jie lygūs"
+      ],
+      "answer": 1,
+      "hint": "Palygink dešimtukus: 1 prieš 2.",
+      "explain": "21 didesnis, nes turi 2 dešimtukus."
+    },
+    {
+      "type": "reflect",
+      "question": "Kaip tau patogiau rodyti skaičių?",
+      "chips": [
+        "Ryšuliais",
+        "Atskiromis lazdelėmis",
+        "Skaitmenimis",
+        "Pirštais"
+      ],
+      "note": "Skirtingi vaizdai padeda suprasti tą patį skaičių."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Vietos vertės (pozicinės sistemos) pradžia: dešimtukai ir vienetai iki 20.",
+    "priemones": [
+      "suskaičiuotos lazdelės arba dviejų spalvų blokai",
+      "gumytės ryšuliams"
+    ],
+    "eiga": [
+      "Suriškite 10 lazdelių į ryšulį kartu su vaiku – tai fizinis dešimtukas.",
+      "Leiskite vaikui sudėlioti 13, 16, 19 ir pasakyti, kiek dešimtukų ir vienetų.",
+      "Užbaikite užrašu: 1 dešimtukas + 6 vienetai = 16."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Pradėkite nuo 11–13, kol ryšulio idėja taps aiški.",
+      "issukis": "Paklauskite, kiek vienetų reikėtų, kad būtų 2 dešimtukai."
+    },
+    "refleksija": "Klauskite: kodėl 1 ir 7 reiškia 17, o ne 8?"
+  },
+  "outcome": "Vaikas bent 4 iš 5 kartų teisingai pasako, kiek dešimčių ir kiek vienetų yra skaičiuje iki 20.",
+  "designNotes": {
+    "branduolineIdeja": "Skaičiai nuo 11 iki 20 sudaryti iš dešimties ir kelių vienetų.",
+    "simTipas": "manipulate",
+    "kognityvineApkrova": "Vienu metu rodomas vienas dešimtukas ir iki 10 vienetų, be papildomų etikečių.",
+    "ux": "Dešimtukų rėmelis lieka matomas visą laiką kaip atrama.",
+    "evidence": [
+      "P13",
+      "P37"
+    ]
+  }
+}

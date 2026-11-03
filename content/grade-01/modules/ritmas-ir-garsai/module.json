@@ -1,0 +1,115 @@
+{
+  "id": "ritmas-ir-garsai",
+  "grade": 1,
+  "subject": "muzika",
+  "subjectLabel": "Muzika",
+  "chipClass": "chip-plum",
+  "title": "Ritmas ir garsai",
+  "tagline": "Kurk ritmą ir išgirsk jo taisyklę",
+  "icon": "🥁",
+  "color": "plum",
+  "minutes": 10,
+  "curriculum": {
+    "program": "Muzikos bendroji programa (atnaujinta 2022 m.)",
+    "area": "Muzikavimas",
+    "codes": [
+      "Muzika 25.1.5"
+    ],
+    "note": "Ritmo pulsas, pasikartojimas, klausymasis ir atkartojimas.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13"
+  ],
+  "objectives": [
+    "Sukurti pasikartojantį ritmą.",
+    "Išgirsti ritmo modelį ir jį atkartoti.",
+    "Paaiškinti, kas yra ritmas."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Ritmas – tai tvarka laike",
+      "text": "Ritmas atsiranda, kai garsai kartojasi tolygiai. Pabandyk pliaukšėti: vienas, du, trys.",
+      "visual": "🥁",
+      "bullets": [
+        "Pulsas – tolygus plakimas.",
+        "Ritmas – garsų išdėstymas per pulsą.",
+        "Tas pats ritmas gali būti greitas arba lėtas."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "rhythm",
+      "title": "Sukurk ritmą",
+      "text": "Spausk langelius ir klausyk, ką sukūrei.",
+      "config": {}
+    },
+    {
+      "type": "sim",
+      "sim": "melody",
+      "title": "Aukštas ir žemas garsas",
+      "text": "Paklausyk ir pasakyk, kuris garsas aukštesnis.",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Kas yra ritmas?",
+      "options": [
+        "Garsų tvarka laike",
+        "Garsumo lygis",
+        "Instrumento spalva"
+      ],
+      "answer": 0,
+      "hint": "Pagalvok apie plojimus: vienas, du, trys.",
+      "explain": "Ritmas – tai, kaip garsai išsidėstę laike."
+    },
+    {
+      "type": "reflect",
+      "question": "Kur girdi ritmą kasdien?",
+      "chips": [
+        "Širdies plakime",
+        "Lietuje",
+        "Žingsniuose",
+        "Laikrodyje"
+      ],
+      "note": "Ritmas – visur, kur kas nors kartojasi."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Ritmo pulso pajautimas, modelio atkartojimas, kūrybinis muzikavimas.",
+    "priemones": [
+      "kūnas (plojimai, trypimai)",
+      "paprasti mušamieji"
+    ],
+    "eiga": [
+      "Pradėkite nuo kūno perkusijos – be instrumentų.",
+      "Leiskite sukurti savo ritmą ir jį atlikti klasei.",
+      "Tada žaiskite „atkartok“ – mokytojas parodo, vaikai kartoja."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Tik 4 dūžiai, du aktyvūs langeliai.",
+      "issukis": "8 dūžiai su trimis instrumentais."
+    },
+    "refleksija": "Klauskite: kaip žinai, kada ritmas kartojasi?"
+  },
+  "outcome": "Vaikas bent 4 iš 5 kartų pakartoja 2–4 dūžių ritmą plojant arba bakstelint.",
+  "designNotes": {
+    "branduolineIdeja": "Ritmas – tai pasikartojantys garsai, kuriuos galima atkartoti kūnu.",
+    "simTipas": "rhythm",
+    "kognityvineApkrova": "Iki 4 dūžių, vienas taktas be sinchronizavimo su kitais.",
+    "ux": "Dūžiai rodomi ir girdimi vienu metu; tempas lėtas ir vaiko valdomas.",
+    "evidence": [
+      "P06",
+      "P07"
+    ]
+  }
+}

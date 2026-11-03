@@ -1,0 +1,127 @@
+{
+  "id": "akmenu-zaidimas",
+  "grade": 1,
+  "subject": "matematika",
+  "subjectLabel": "Matematika",
+  "chipClass": "chip-sun",
+  "title": "Akmenų žaidimas",
+  "tagline": "Atrask laiminčią strategiją",
+  "icon": "🪨",
+  "color": "sun",
+  "minutes": 12,
+  "curriculum": {
+    "program": "Matematikos bendroji programa (atnaujinta 2022 m.)",
+    "area": "Matematinis mąstymas ir problemų sprendimas",
+    "codes": [
+      "Matematika 24.2.2",
+      "Matematika C1.3"
+    ],
+    "note": "Paprasta žaidimų teorija: ėjimų strategija, dėsningumo paieška, sprendimo priėmimas.",
+    "status": "papildoma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13",
+    "S1-11",
+    "S1-04",
+    "S1-09"
+  ],
+  "objectives": [
+    "Žaisti pagal taisykles ir laikytis eigos.",
+    "Pastebėti pasikartojantį dėsningumą (3, 6, 9).",
+    "Paaiškinti savo strategiją žodžiais."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Žaidimas su paslaptimi",
+      "text": "Dvylika akmenų. Imi 1 arba 2. Kas paima paskutinį – laimi.",
+      "visual": "🪨",
+      "bullets": [
+        "Pirmiausia žaisk ir stebėk.",
+        "Po kiekvieno ėjimo skaičiuok, kiek liko.",
+        "Paslaptis slypi skaičiuje 3."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "nim",
+      "title": "Žaisk su Roku",
+      "text": "Žaisk tris kartus. Stebėk, kada Rokas laimi.",
+      "config": {
+        "stones": 12
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Po tavo ėjimo liko 3 akmenys. Rokas ima 1. Kiek liko?",
+      "options": [
+        "2",
+        "1",
+        "3"
+      ],
+      "answer": 0,
+      "hint": "3 – 1 = 2.",
+      "explain": "Liko 2 – juos gali paimti ir laimėti."
+    },
+    {
+      "type": "quiz",
+      "question": "Kokį skaičių verta palikti priešininkui?",
+      "options": [
+        "3, 6 arba 9",
+        "1, 2 arba 4",
+        "10"
+      ],
+      "answer": 0,
+      "hint": "Tai skaičiai, kurie dalijasi iš 3.",
+      "explain": "Palik 3, 6 arba 9 – tada priešininkas negalės laimėti."
+    },
+    {
+      "type": "reflect",
+      "question": "Kaip jauteisi, kai atradai strategiją?",
+      "chips": [
+        "Nustebau",
+        "Pasididžiavau",
+        "Norėjau žaisti dar",
+        "Sunku buvo"
+      ],
+      "note": "Strategijos atradimas – tikras matematinis džiaugsmas."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Strateginio mąstymo pradžia: dėsningumo paieška ir ėjimo pasekmių numatymas.",
+    "priemones": [
+      "12 kaštonų arba sagų",
+      "popierius ėjimams žymėti"
+    ],
+    "eiga": [
+      "Leiskite vaikui žaisti be paaiškinimų – tegul pralaimi ir stebi.",
+      "Po kelių žaidimų paklauskite: kada tu laimėjai?",
+      "Padėkite atrasti: palik 3, 6, 9."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Pradėkite nuo 6 akmenų – dėsningumas ryškesnis.",
+      "issukis": "Leiskite imti 1–3 akmenis ir ieškoti naujos taisyklės."
+    },
+    "refleksija": "Klauskite: kaip paaiškintum strategiją draugui?"
+  },
+  "outcome": "Vaikas paaiškina bent vieną ėjimą žodžiais „jei aš imu tiek, tai liks...“.",
+  "designNotes": {
+    "branduolineIdeja": "Žaidime galima planuoti ėjimą į priekį ir pastebėti pasikartojančią taisyklę.",
+    "simTipas": "strategy",
+    "kognityvineApkrova": "Ne daugiau kaip 9 akmenys; kompiuterio ėjimas rodomas lėtai.",
+    "ux": "Nėra laikmačio ir nėra rezultato lentos – žaidžiama dėl pastebėjimo, ne dėl pergalės.",
+    "evidence": [
+      "P30",
+      "P28"
+    ],
+    "pastaba": "P30: Nim strategijos mokymo 1 klasei tiesioginių įrodymų nėra. Modulis žymimas papildomu ir neturi būti vertinamas kaip pasiekimų įrodymas."
+  }
+}

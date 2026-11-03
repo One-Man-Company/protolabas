@@ -1,0 +1,121 @@
+{
+  "id": "judrumo-zaidimas",
+  "grade": 1,
+  "subject": "fizinis",
+  "subjectLabel": "Fizinis ugdymas",
+  "chipClass": "chip-leaf",
+  "title": "Judrumo žaidimas",
+  "tagline": "Pašok į tą pusę ir sureaguok",
+  "icon": "🏃",
+  "color": "leaf",
+  "minutes": 8,
+  "curriculum": {
+    "program": "Fizinio ugdymo bendroji programa (atnaujinta 2022 m.)",
+    "area": "Judėjimo įgūdžių plėtojimas",
+    "codes": [
+      "Fizinis ugdymas 22.1.1",
+      "Fizinis ugdymas 22.1.3"
+    ],
+    "note": "Erdvinė orientacija, reakcijos greitis, koordinacija, saugus judėjimas.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13"
+  ],
+  "objectives": [
+    "Orientuotis erdvėje pagal kryptis.",
+    "Reaguoti į signalą kuo greičiau.",
+    "Judėti saugiai, neatsitrenkiant į kitus."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Kryptys ir saugumas",
+      "text": "Aukštyn, žemyn, kairėn, dešinėn. Prieš judėdamas pažiūrėk, ar aplink saugu.",
+      "visual": "🏃",
+      "bullets": [
+        "Palauk signalo.",
+        "Judėk tik tada, kai yra vietos.",
+        "Aplink kitus – lėčiau."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "move",
+      "title": "Kryptys",
+      "text": "Pamatyk rodyklę, pašok į tą pusę ir paliesk ją.",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Prieš bėgant klasėje, ką reikia padaryti?",
+      "options": [
+        "Pažiūrėti, ar saugu",
+        "Bėgti iškart",
+        "Užsimerkti"
+      ],
+      "answer": 0,
+      "hint": "Saugumas pirmiausia.",
+      "explain": "Pirmiausia įvertink erdvę."
+    },
+    {
+      "type": "quiz",
+      "question": "Kuri kryptis yra priešais tave, kai žiūri į lentą?",
+      "options": [
+        "Pirmyn",
+        "Atgal",
+        "Žemyn"
+      ],
+      "answer": 0,
+      "hint": "Ten, kur žiūri tavo akys.",
+      "explain": "Priešais – pirmyn."
+    },
+    {
+      "type": "reflect",
+      "question": "Kuris judesys tau sekėsi geriausiai?",
+      "chips": [
+        "Šuoliai",
+        "Pritūpimai",
+        "Pusiausvyra",
+        "Bėgimas vietoje"
+      ],
+      "note": "Kiekvienas judesys lavina skirtingus įgūdžius."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Erdvinė orientacija, reakcija ir saugaus judėjimo nuostata.",
+    "priemones": [
+      "pakankamai erdvės",
+      "kilimėliai"
+    ],
+    "eiga": [
+      "Pradėkite nuo lėto ėjimo ir krypčių įvardijimo.",
+      "Įjunkite simuliaciją kaip signalą judėti.",
+      "Baigkite lėtu tempimu ir kvėpavimu."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Tik dvi kryptys: pirmyn ir atgal.",
+      "issukis": "Dvi komandos kryptys vienu metu."
+    },
+    "refleksija": "Klauskite: kaip žinai, į kurią pusę bėgti?"
+  },
+  "outcome": "Vaikas atlieka 4 judesius iš eilės pagal parodytą pavyzdį.",
+  "designNotes": {
+    "branduolineIdeja": "Judėjimas turi kryptį, tempą ir seką, kurią galima atkartoti.",
+    "simTipas": "move",
+    "kognityvineApkrova": "Vienas judesys vienu metu, seka ne ilgesnė kaip 4 žingsniai.",
+    "ux": "Dideli mygtukai ir judesio demonstracija; žaidimas trumpas, kad ekranas nebūtų pagrindinė veikla.",
+    "evidence": [
+      "P45",
+      "P49"
+    ]
+  }
+}

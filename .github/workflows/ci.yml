@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  content:
+    name: Turinys ir taisykles
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validatorius
+        run: python3 tools/validate.py
+      - name: Sveikata (strict)
+        run: python3 tools/health.py --strict
+      - name: Ataskaita
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: health-report
+          path: reports/health.*
+
+  audit:
+    name: Headless auditas
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Chrome
+        run: |
+          if ! command -v google-chrome >/dev/null; then
+            sudo apt-get update
+            sudo apt-get install -y google-chrome-stable
+          fi
+          google-chrome --version
+      - name: Serveris
+        run: |
+          python3 tools/serve.py 8092 &
+          for i in $(seq 1 30); do
+            if curl -sf http://127.0.0.1:8092/index.html >/dev/null; then break; fi
+            sleep 1
+          done
+          curl -sf http://127.0.0.1:8092/index.html >/dev/null
+      - name: Auditas
+        run: node tools/audit.mjs --base http://127.0.0.1:8092 --chrome google-chrome --out .audit.json
+      - name: Rezultatas
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-report
+          path: .audit.json

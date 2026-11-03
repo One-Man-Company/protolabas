@@ -1,0 +1,121 @@
+{
+  "id": "algoritmai-robotui",
+  "grade": 1,
+  "subject": "informatika",
+  "subjectLabel": "Informatika",
+  "chipClass": "chip-plum",
+  "title": "Algoritmai robotui",
+  "tagline": "Sukurk komandų seką ir nuvesk robotą",
+  "icon": "🤖",
+  "color": "plum",
+  "minutes": 12,
+  "curriculum": {
+    "program": "Informatikos bendroji programa (atnaujinta 2022 m.)",
+    "area": "Matematinis mąstymas ir problemų sprendimas",
+    "codes": [
+      "Matematika 24.2.2",
+      "Matematika C1.3"
+    ],
+    "note": "Komandų seka, vykdymas žingsnis po žingsnio, klaidos paieška ir taisymas.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13"
+  ],
+  "objectives": [
+    "Sudaryti komandų seką tikslui pasiekti.",
+    "Vykdyti programą žingsnis po žingsnio.",
+    "Rasti klaidą ir ją pataisyti."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Programa – tai komandų sąrašas",
+      "text": "Robotas daro tik tai, ką jam pasakai. Kiekviena komanda – vienas žingsnis.",
+      "visual": "🤖",
+      "bullets": [
+        "Komandos vykdomos iš eilės.",
+        "Viena klaida – robotas ne ten.",
+        "Klaidą rasti lengviau, kai vykdai po vieną žingsnį."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "robot",
+      "title": "Nuvesk robotą",
+      "text": "Sudėk rodykles ir spausk „Vykdyti“.",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Robotas turi eiti 3 žingsnius į dešinę. Kiek komandų reikia?",
+      "options": [
+        "3",
+        "1",
+        "6"
+      ],
+      "answer": 0,
+      "hint": "Viena komanda – vienas žingsnis.",
+      "explain": "Reikia trijų komandų „dešinėn“."
+    },
+    {
+      "type": "quiz",
+      "question": "Robotas atsimušė į sieną. Ką daryti?",
+      "options": [
+        "Pakeisti komandas ir bandyti vėl",
+        "Išjungti robotą",
+        "Nieko"
+      ],
+      "answer": 0,
+      "hint": "Klaida – informacija, ne pabaiga.",
+      "explain": "Taisome programą ir bandome dar kartą."
+    },
+    {
+      "type": "reflect",
+      "question": "Kaip jautiesi, kai programa neveikia?",
+      "chips": [
+        "Norisi taisyti",
+        "Kartais pykstu",
+        "Bandau dar kartą",
+        "Prašau pagalbos"
+      ],
+      "note": "Kiekviena klaida moko, kaip veikia algoritmas."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Algoritminio mąstymo pradžia: seka, vykdymas, derinimas (debugging).",
+    "priemones": [
+      "tinklelis ant grindų",
+      "rodyklių kortelės"
+    ],
+    "eiga": [
+      "Pirmiausia vaidinkite robotą patys – vaikas duoda komandas.",
+      "Tada pereikite prie ekrano simuliacijos.",
+      "Klaidą taisykite kartu, garsiai komentuodami."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Tik tiesus kelias be kliūčių.",
+      "issukis": "Kliūtys ir trumpiausias kelias."
+    },
+    "refleksija": "Klauskite: kaip žinai, kuri komanda klaidinga?"
+  },
+  "outcome": "Vaikas bent 4 iš 5 kartų sudaro komandų seką, kuri nuveda robotą iki tikslo.",
+  "designNotes": {
+    "branduolineIdeja": "Veiksmai atliekami tvarkinga seka, o seka gali būti užrašyta ir pakartota.",
+    "simTipas": "build",
+    "kognityvineApkrova": "Tinklelis 5×5, ne daugiau kaip 4 komandos vienu bandymu.",
+    "ux": "Kiekviena komanda – didelė ikona su balsu; klaida parodo, kur robotas sustojo.",
+    "evidence": [
+      "P17",
+      "P18"
+    ]
+  }
+}

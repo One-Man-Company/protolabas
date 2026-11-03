@@ -1,0 +1,125 @@
+{
+  "id": "spalvu-laboratorija",
+  "grade": 1,
+  "subject": "daile",
+  "subjectLabel": "Dailė",
+  "chipClass": "chip-sun",
+  "title": "Spalvų laboratorija",
+  "tagline": "Sumaišyk du dažus ir gauk naują spalvą",
+  "icon": "🎨",
+  "color": "sun",
+  "minutes": 9,
+  "curriculum": {
+    "program": "Dailės bendroji programa (atnaujinta 2022 m.)",
+    "area": "Dailės raiška",
+    "codes": [
+      "Dailė 23.1.3",
+      "Dailė 23.1.1",
+      "Dailė A1.2"
+    ],
+    "note": "Pagrindinės spalvos, maišymas, spalvų pavadinimai, tikslo siekimas eksperimentuojant.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13"
+  ],
+  "objectives": [
+    "Įvardyti pagrindines spalvas.",
+    "Sumaišyti dvi spalvas ir gauti trečią.",
+    "Paaiškinti, kaip gavosi nauja spalva."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Trys pagrindinės spalvos",
+      "text": "Raudona, geltona, mėlyna. Sumaišius jas, gaunasi naujos.",
+      "visual": "🎨",
+      "bullets": [
+        "Geltona + raudona = oranžinė.",
+        "Geltona + mėlyna = žalia.",
+        "Raudona + mėlyna = violetinė."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "colors",
+      "title": "Gauk tikslo spalvą",
+      "text": "Įdėk dažus į du puodus ir maišyk.",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Kokia spalva gaunasi iš geltonos ir mėlynos?",
+      "options": [
+        "Žalia",
+        "Oranžinė",
+        "Violetinė"
+      ],
+      "answer": 0,
+      "hint": "Pagalvok apie lapus ir žolę.",
+      "explain": "Geltona + mėlyna = žalia."
+    },
+    {
+      "type": "quiz",
+      "question": "Kaip padaryti spalvą šviesesnę?",
+      "options": [
+        "Pridėti baltos",
+        "Pridėti juodos",
+        "Pridėti daugiau raudonos"
+      ],
+      "answer": 0,
+      "hint": "Balta spalva – šviesiausia.",
+      "explain": "Balta spalva šviesina."
+    },
+    {
+      "type": "reflect",
+      "question": "Kuri spalva tau labiausiai patinka?",
+      "chips": [
+        "Raudona",
+        "Geltona",
+        "Mėlyna",
+        "Žalia",
+        "Violetinė",
+        "Oranžinė"
+      ],
+      "note": "Spalvos keičia nuotaiką."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Spalvų maišymas kaip eksperimentas, spalvų žodynas.",
+    "priemones": [
+      "guašas arba akvarelė",
+      "paletė",
+      "popierius"
+    ],
+    "eiga": [
+      "Pirmiausia maišykite tikrą dažą ant popieriaus.",
+      "Tada pakartokite ekrane ir palyginkite.",
+      "Užbaikite savo spalvų paletės piešiniu."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Tik dvi poros: geltona+raudona, geltona+mėlyna.",
+      "issukis": "Gauk tikslią atspalvį pridėdamas balto arba juodo."
+    },
+    "refleksija": "Klauskite: kodėl maišant dvi spalvas gaunasi trečia?"
+  },
+  "outcome": "Vaikas bent 4 iš 5 kartų nuspėja, kokia spalva gausis sumaišius dvi spalvas, ir patikrina.",
+  "designNotes": {
+    "branduolineIdeja": "Dvi spalvos sumaišytos duoda trečią, o šiltos ir šaltos spalvos skiriasi.",
+    "simTipas": "variables",
+    "kognityvineApkrova": "Dvi spalvos ir vienas rezultatas; be spalvų pavadinimų sąrašo.",
+    "ux": "Rezultatas atsiranda tiesiai po mišinio, kad vaizdas ir pasekmė sutaptų laike (P06).",
+    "evidence": [
+      "P01",
+      "P47"
+    ]
+  }
+}

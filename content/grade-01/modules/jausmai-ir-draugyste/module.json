@@ -1,0 +1,121 @@
+{
+  "id": "jausmai-ir-draugyste",
+  "grade": 1,
+  "subject": "dorinis",
+  "subjectLabel": "Tikyba / etika",
+  "chipClass": "chip-clay",
+  "title": "Jausmai ir draugystė",
+  "tagline": "Kaip jaučiasi kitas? Pagalvok prieš veikdamas",
+  "icon": "💛",
+  "color": "clay",
+  "minutes": 9,
+  "curriculum": {
+    "program": "Dorinio ugdymo bendroji programa (atnaujinta 2022 m.)",
+    "area": "Saviugda ir savisauga",
+    "codes": [
+      "Etika 22.1.2",
+      "Etika A2.2"
+    ],
+    "note": "Perspektyvos ėmimas, empatija, pasirinkimų pasekmės santykiams.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13"
+  ],
+  "objectives": [
+    "Įvardyti bent keturis jausmus.",
+    "Numatyti, kaip veiksmas paveiks kitą vaiką.",
+    "Pasirinkti veiksmą, kuris padeda kitam."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Jausmai neturi būti slepiami",
+      "text": "Linksma, liūdna, saugu, neramu, gėda. Visi jausmai svarbūs.",
+      "visual": "💛",
+      "bullets": [
+        "Jausmus galima įvardyti.",
+        "Kitas jaučia panašiai kaip tu.",
+        "Pasirinkimas keičia tai, kaip jaučiasi kitas."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "scenarios",
+      "title": "Ką darytum?",
+      "text": "Pasirink veiksmą ir pažiūrėk, kaip pasijus kitas.",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Draugas nuliūdo, nes negavo žaisti. Ką daryti?",
+      "options": [
+        "Pakviesti žaisti kartu",
+        "Nesikalbėti",
+        "Pasakyti, kad jis pats kaltas"
+      ],
+      "answer": 0,
+      "hint": "Pagalvok, ko norėtumei, jei būtum jo vietoje.",
+      "explain": "Kvietimas žaisti padeda jaustis geriau."
+    },
+    {
+      "type": "quiz",
+      "question": "Kaip atrodantis veidas rodo, kad žmogus liūdnas?",
+      "options": [
+        "Nuleistos akys ir lūpų kampučiai",
+        "Plačiai atmerktos akys",
+        "Šypsena"
+      ],
+      "answer": 0,
+      "hint": "Liūdnas žmogus susitraukia.",
+      "explain": "Liūdesį dažnai rodo nuleistas žvilgsnis."
+    },
+    {
+      "type": "reflect",
+      "question": "Kas tau padeda, kai liūdna?",
+      "chips": [
+        "Pokalbis",
+        "Apsikabinimas",
+        "Tyli pertrauka",
+        "Žaidimas su draugu"
+      ],
+      "note": "Skirtingiems žmonėms padeda skirtingi dalykai."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Emocijų atpažinimas ir perspektyvos ėmimas saugiose situacijose.",
+    "priemones": [
+      "jausmų veidukų kortelės",
+      "situacijų paveikslėliai"
+    ],
+    "eiga": [
+      "Pirmiausia įvardykite jausmus, tik paskui spręskite, ką daryti.",
+      "Leiskite vaikams pasiūlyti kelis sprendimus ir aptarti pasekmes.",
+      "Nekalbėkite „geras“ ar „blogas“ vaikas – kalbėkite apie veiksmą ir jo poveikį."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Tik du jausmai: linksma ir liūdna.",
+      "issukis": "Situacija, kurioje abu vaikai jaučiasi nuskriausti."
+    },
+    "refleksija": "Klauskite: kaip supratai, kad draugui skaudu?"
+  },
+  "outcome": "Vaikas bent 4 iš 5 kartų įvardija jausmą paveikslėlyje ir pasiūlo, kaip padėti draugui.",
+  "designNotes": {
+    "branduolineIdeja": "Jausmai turi vardus, o draugas gali padėti, kai sunku.",
+    "simTipas": "scenario",
+    "kognityvineApkrova": "Vienas jausmas ir vienas pasirinkimas vienu metu.",
+    "ux": "Nėra „teisingo“ jausmo – priimami visi atsakymai, komentaras pridedamas po pasirinkimo.",
+    "evidence": [
+      "P43",
+      "P50"
+    ]
+  }
+}

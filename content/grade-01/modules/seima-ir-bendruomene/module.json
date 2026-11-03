@@ -1,0 +1,121 @@
+{
+  "id": "seima-ir-bendruomene",
+  "grade": 1,
+  "subject": "visuomeninis",
+  "subjectLabel": "Visuomeninis ugdymas",
+  "chipClass": "chip-sky",
+  "title": "Šeima ir bendruomenė",
+  "tagline": "Kas padeda mums kiekvieną dieną?",
+  "icon": "👨‍👩‍👧",
+  "color": "sky",
+  "minutes": 9,
+  "curriculum": {
+    "program": "Visuomeninio ugdymo bendroji programa (atnaujinta 2022 m.)",
+    "area": "Tarpusavio santykiai",
+    "codes": [
+      "Gyvenimo įgūdžiai 24.1",
+      "Etika 22.2.1"
+    ],
+    "note": "Šeimos nariai, profesijos, tarpusavio pagalba, pagarba kitiems.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13"
+  ],
+  "objectives": [
+    "Įvardyti šeimos narius ir jų vaidmenis.",
+    "Susieti profesiją su naudojamu įrankiu.",
+    "Paaiškinti, kodėl bendruomenei reikia įvairių žmonių."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Visi daro savo darbą",
+      "text": "Mokykloje, ligoninėje, parduotuvėje dirba skirtingi žmonės. Kiekvienas padeda kitaip.",
+      "visual": "👨‍👩‍👧",
+      "bullets": [
+        "Šeima – artimiausia bendruomenė.",
+        "Gydytojas gydo, virėjas gamina, vairuotojas veža.",
+        "Bendruomenė veikia, kai visi prisideda."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "roles",
+      "title": "Kas ką naudoja?",
+      "text": "Surask įrankį, kurį naudoja šis žmogus.",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Kas padeda, kai susergi?",
+      "options": [
+        "Gydytojas",
+        "Statybininkas",
+        "Paštininkas"
+      ],
+      "answer": 0,
+      "hint": "Kas klauso širdies ir išrašo vaistus?",
+      "explain": "Gydytojas rūpinasi sveikata."
+    },
+    {
+      "type": "quiz",
+      "question": "Kodėl bendruomenei reikia įvairių profesijų?",
+      "options": [
+        "Kad visi darbai būtų atlikti",
+        "Kad būtų daugiau žmonių",
+        "Kad būtų linksmiau"
+      ],
+      "answer": 0,
+      "hint": "Vienas žmogus visko nespėtų.",
+      "explain": "Skirtingi darbai – skirtingi žmonės."
+    },
+    {
+      "type": "reflect",
+      "question": "Kuo tu norėtum padėti kitiems?",
+      "chips": [
+        "Gydyti",
+        "Mokyti",
+        "Statyti",
+        "Gaminti maistą",
+        "Saugoti"
+      ],
+      "note": "Bet kuri profesija gali būti pagalba."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Socialinių vaidmenų supratimas ir pagarba įvairiems darbams.",
+    "priemones": [
+      "profesijų nuotraukos",
+      "įrankių paveikslėliai"
+    ],
+    "eiga": [
+      "Pradėkite nuo šeimos: kas ką veikia namuose.",
+      "Plėskite į mokyklą ir miestą.",
+      "Akcentuokite ne prestižą, o naudą kitiems."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Tik 3 artimiausios profesijos.",
+      "issukis": "Paprašykite sugalvoti profesiją, kurios dar nėra."
+    },
+    "refleksija": "Klauskite: kas būtų, jei mieste dirbtų tik viena profesija?"
+  },
+  "outcome": "Vaikas įvardija bent tris skirtingus žmones savo bendruomenėje ir jų vaidmenis.",
+  "designNotes": {
+    "branduolineIdeja": "Skirtingi žmonės bendruomenėje turi skirtingus vaidmenis ir padeda vieni kitiems.",
+    "simTipas": "roles",
+    "kognityvineApkrova": "Ne daugiau kaip 4 vaidmenys vienu metu.",
+    "ux": "Vaidmenys rodomi kaip veidai su pavadinimais, kad nereikėtų skaityti ilgų aprašymų.",
+    "evidence": [
+      "P50"
+    ]
+  }
+}

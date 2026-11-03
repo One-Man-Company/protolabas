@@ -1,0 +1,47 @@
+/* Protolabas — design tokens. Single source of visual truth. */
+:root {
+  --cream: #fff9f0;
+  --cream-deep: #fdf1df;
+  --ink: #17212b;
+  --ink-soft: #33414f;
+  --muted: #5f6f7e;
+  --line: #eadfce;
+  --card: #ffffff;
+
+  --sun: #f59e0b;
+  --sun-soft: #fef3c7;
+  --sky: #0ea5e9;
+  --sky-soft: #e0f2fe;
+  --leaf: #16a34a;
+  --leaf-soft: #dcfce7;
+  --berry: #db2777;
+  --berry-soft: #fce7f3;
+  --plum: #7c3aed;
+  --plum-soft: #ede9fe;
+  --clay: #ea580c;
+  --clay-soft: #ffedd5;
+
+  --ok: #15803d;
+  --ok-soft: #dcfce7;
+  --warn: #b45309;
+  --warn-soft: #fef3c7;
+
+  --radius-s: 12px;
+  --radius: 22px;
+  --radius-l: 32px;
+  --shadow-s: 0 2px 6px rgba(23, 33, 43, .06);
+  --shadow: 0 10px 30px rgba(23, 33, 43, .09);
+  --shadow-lg: 0 24px 60px rgba(23, 33, 43, .14);
+
+  --font: "Nunito", "Varela Round", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", sans-serif;
+  --font-display: "Nunito", "Varela Round", "Segoe UI", system-ui, sans-serif;
+
+  --tap: 48px;
+  --maxw: 1140px;
+  --ease: cubic-bezier(.2, .8, .2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --ease: linear; }
+  *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+}

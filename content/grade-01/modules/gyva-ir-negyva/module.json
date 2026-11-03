@@ -1,0 +1,122 @@
+{
+  "id": "gyva-ir-negyva",
+  "grade": 1,
+  "subject": "gamta",
+  "subjectLabel": "Gamtos mokslai",
+  "chipClass": "chip-clay",
+  "title": "Gyva ir negyva",
+  "tagline": "Kas kvėpuoja, o kas tik yra?",
+  "icon": "🐦",
+  "color": "clay",
+  "minutes": 9,
+  "curriculum": {
+    "program": "Pasaulio pažinimo bendroji programa (atnaujinta 2022 m.)",
+    "area": "Gamtos objektų ir reiškinių pažinimas",
+    "codes": [
+      "Gamtos mokslai 26.2.4",
+      "Gamtos mokslai D4.3"
+    ],
+    "note": "Gyvų būtybių požymiai, gamtos objektai ir žmogaus sukurti daiktai.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13"
+  ],
+  "objectives": [
+    "Skirti gyvą būtybę nuo negyvo daikto.",
+    "Paaiškinti bent du gyvybės požymius.",
+    "Skirti gamtos objektus nuo žmogaus sukurtų."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Kas yra gyvas?",
+      "text": "Gyvos būtybės kvėpuoja, maitinasi, auga ir dauginasi.",
+      "visual": "🐦",
+      "bullets": [
+        "Paukštis – gyvas.",
+        "Akmuo – negyvas.",
+        "Kėdė – daiktas, kurį padarė žmogus."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "sorting",
+      "title": "Sudėk į grupes",
+      "text": "Paliesk daiktą, paskui – grupę. Arba nutempk.",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Kuris požymis rodo, kad augalas gyvas?",
+      "options": [
+        "Jis auga",
+        "Jis rudas",
+        "Jis sunkus"
+      ],
+      "answer": 0,
+      "hint": "Prisimink, ką veikia gyvos būtybės.",
+      "explain": "Augimas – gyvybės požymis."
+    },
+    {
+      "type": "quiz",
+      "question": "Kuris daiktas sukurtas žmogaus?",
+      "options": [
+        "Dviratis",
+        "Akmuo",
+        "Debesis"
+      ],
+      "answer": 0,
+      "hint": "Kas turi varžtus ir ratą?",
+      "explain": "Dviratį sukonstravo žmogus."
+    },
+    {
+      "type": "reflect",
+      "question": "Kuris gyvybės požymis tau atrodo svarbiausias?",
+      "chips": [
+        "Kvėpuoja",
+        "Maitinasi",
+        "Auga",
+        "Dauginasi"
+      ],
+      "note": "Visi požymiai svarbūs."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Gyvosios ir negyvosios gamtos skyrimas, gyvybės požymių įvardijimas.",
+    "priemones": [
+      "padidinamasis stiklas",
+      "augalo lapas",
+      "akmuo"
+    ],
+    "eiga": [
+      "Leiskite vaikui liesti ir lyginti: lapas, akmuo, popierius.",
+      "Klauskite: kas čia auga? Kas kvėpuoja?",
+      "Užbaikite klasifikacija pagal du požymius."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Tik akivaizdūs atvejai: paukštis, akmuo.",
+      "issukis": "Sunkūs atvejai: grybas, sėkla, vanduo."
+    },
+    "refleksija": "Klauskite: ar medis gyvas? Kodėl taip manai?"
+  },
+  "outcome": "Vaikas bent 4 iš 5 kartų priskiria objektą gyvajai ar negyvajai gamtai ir nurodo vieną požymį.",
+  "designNotes": {
+    "branduolineIdeja": "Gyvi dalykai kvėpuoja, maitinasi ir auga; negyvi – ne.",
+    "simTipas": "classify",
+    "kognityvineApkrova": "Po vieną objektą, be foninių detalių (P15).",
+    "ux": "Objektai rodomi kaip paprastos iliustracijos, ne fotorealistinės nuotraukos.",
+    "evidence": [
+      "P15",
+      "P13"
+    ]
+  }
+}

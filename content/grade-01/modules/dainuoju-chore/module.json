@@ -1,0 +1,121 @@
+{
+  "id": "dainuoju-chore",
+  "grade": 1,
+  "subject": "choras",
+  "subjectLabel": "Choras",
+  "chipClass": "chip-sun",
+  "title": "Dainuoju chore",
+  "tagline": "Klausyk, kvėpuok ir dainuok kartu",
+  "icon": "🎵",
+  "color": "sun",
+  "minutes": 9,
+  "curriculum": {
+    "program": "Muzikos bendroji programa (atnaujinta 2022 m.), chorinio dainavimo dalis",
+    "area": "Muzikavimas",
+    "codes": [
+      "Muzika 25.1.2",
+      "Muzika 25.1.4"
+    ],
+    "note": "Kvėpavimas, intonacija, klausymasis kartu, aukšto ir žemo garso skyrimas.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18",
+    "S1-05",
+    "S1-12",
+    "S1-13"
+  ],
+  "objectives": [
+    "Skirti aukštesnį ir žemesnį garsą.",
+    "Dainuoti kartu su grupe, ne aplenkiant kitų.",
+    "Pakartoti trumpą melodiją."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Prieš dainuojant – kvėpavimas",
+      "text": "Įkvėpk per nosį, iškvėpk lėtai. Tada balsas skamba laisviau.",
+      "visual": "🎵",
+      "bullets": [
+        "Dainuojame kartu, klausydami kitų.",
+        "Aukštas garsas – plonas, žemas – storas.",
+        "Nereikia rėkti: choras – tai vienas balsas."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "melody",
+      "title": "Aukščiau ar žemiau?",
+      "text": "Paklausyk dviejų garsų ir pasakyk, kuris aukštesnis.",
+      "config": {}
+    },
+    {
+      "type": "quiz",
+      "question": "Kaip dainuoti chore?",
+      "options": [
+        "Kartu su kitais",
+        "Garsiausiai",
+        "Savo tempu"
+      ],
+      "answer": 0,
+      "hint": "Choras skamba gerai, kai visi klauso vienas kito.",
+      "explain": "Chore svarbu klausytis ir derintis."
+    },
+    {
+      "type": "quiz",
+      "question": "Kuris garsas žemesnis: vyro ar vaiko?",
+      "options": [
+        "Vyro",
+        "Vaiko",
+        "Vienodi"
+      ],
+      "answer": 0,
+      "hint": "Storas balsas – žemesnis.",
+      "explain": "Vyro balsas paprastai žemesnis."
+    },
+    {
+      "type": "reflect",
+      "question": "Kaip jautiesi, kai dainuoji kartu?",
+      "chips": [
+        "Linksmai",
+        "Drąsiai",
+        "Neramiai",
+        "Kaip komandoje"
+      ],
+      "note": "Dainavimas kartu stiprina bendrumo jausmą."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Intonacijos ir ansamblinio dainavimo pradžia, klausymosi įgūdis.",
+    "priemones": [
+      "fortepijonas arba telefonas su tonu",
+      "kvėpavimo pratimai"
+    ],
+    "eiga": [
+      "Pradėkite nuo kvėpavimo ir šildymo pratimų.",
+      "Dainuokite trumpą dainelę lėtai, be akompanimento.",
+      "Įrašykite ir paklausykite kartu – be vertinimo."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Dainuokite tik 2–3 garsų frazę.",
+      "issukis": "Dainuokite kanonu dviem grupėms."
+    },
+    "refleksija": "Klauskite: kaip girdėjai, kad visi dainuoja kartu?"
+  },
+  "outcome": "Vaikas bent 4 iš 5 kartų atkartoja 2–3 gaidų motyvą balsu arba paspausdamas.",
+  "designNotes": {
+    "branduolineIdeja": "Melodija – tai garsų seka, kurią galima atkartoti iš klausos.",
+    "simTipas": "melody",
+    "kognityvineApkrova": "2–3 gaidys, be natų rašto.",
+    "ux": "Kiekviena gaida turi spalvą ir vietą, kad vaikas atsimintų seka vaizdu, ne tekstu.",
+    "evidence": [
+      "P09",
+      "P07"
+    ]
+  }
+}

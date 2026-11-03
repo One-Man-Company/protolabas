@@ -1,0 +1,49 @@
+{
+  "grade": 1,
+  "title": "1 klasė",
+  "subtitle": "Pirmi žingsniai: skaičiai, raidės, gamta, judesys ir saugus kelias",
+  "age": "6–7 metai",
+  "subjects": [
+    { "id": "lietuviu", "label": "Lietuvių kalba" },
+    { "id": "matematika", "label": "Matematika" },
+    { "id": "gamta", "label": "Gamtos mokslai" },
+    { "id": "visuomeninis", "label": "Visuomeninis ugdymas" },
+    { "id": "dorinis", "label": "Tikyba / etika" },
+    { "id": "muzika", "label": "Muzika" },
+    { "id": "choras", "label": "Choras" },
+    { "id": "fizinis", "label": "Fizinis ugdymas" },
+    { "id": "sokis", "label": "Šokis" },
+    { "id": "informatika", "label": "Informatika" },
+    { "id": "daile", "label": "Dailė" },
+    { "id": "technologijos", "label": "Technologijos" }
+  ],
+  "modules": [
+    "skaiciai-iki-10",
+    "sudetis-iki-10",
+    "skaiciai-iki-20",
+    "formos-ir-simetrija",
+    "matuoju-ilgi",
+    "akmenu-zaidimas",
+    "raides-ir-garsai",
+    "skaitau-zodzius",
+    "metu-laikai",
+    "augalo-gyvenimas",
+    "gyva-ir-negyva",
+    "saugus-kelias",
+    "seima-ir-bendruomene",
+    "teisingas-dalijimas",
+    "jausmai-ir-draugyste",
+    "ritmas-ir-garsai",
+    "dainuoju-chore",
+    "judrumo-zaidimas",
+    "sokiu-zingsniai",
+    "algoritmai-robotui",
+    "spalvu-laboratorija",
+    "konstruoju"
+  ],
+  "sources": [
+    "Lietuvos Respublikos švietimo, mokslo ir sporto ministro įsakymas dėl bendrųjų ugdymo programų (atnaujintos 2022 m.)",
+    "Švietimo kelrodis 2035 — https://kelrodis.svietimas.lt/",
+    "Vilniaus Gerosios Vilties progimnazijos 1b klasės 2026–2027 m. m. pamokų tvarkaraštis (dalykų sąrašas)"
+  ]
+}
