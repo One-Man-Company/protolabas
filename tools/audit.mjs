@@ -14,7 +14,7 @@
  */
 
 import { spawn } from 'node:child_process';
-import { mkdtempSync, writeFileSync } from 'node:fs';
+import { mkdtempSync, writeFileSync, mkdirSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
@@ -93,7 +93,8 @@ class CDP {
 async function launchChrome() {
   // Chrome's process-singleton socket lives under TMPDIR; Hermes' scratch path is
   // too long for AF_UNIX (108 bytes). Force a short temp root for the browser only.
-  const root = '/tmp/pl-audit';
+  const root = process.env.AUDIT_TMP || '/tmp/pl-audit';
+  mkdirSync(root, { recursive: true });
   const profile = mkdtempSync(join(root, 'p-'));
   const flags = [
     '--headless=new',
