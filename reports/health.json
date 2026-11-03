@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T13:57:44",
+  "generated": "2026-11-03T14:03:09",
   "ok": true,
   "errors": [],
   "warnings": [],
@@ -41,6 +41,7 @@
       "mokytojui.html",
       "index.html"
     ],
+    "manifestai": 1,
     "validator": "OK"
   }
 }

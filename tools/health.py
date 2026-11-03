@@ -224,6 +224,27 @@ def check_links() -> None:
         warn(f"nuorodos į internetą (offline-first pažeidimas): {remote}")
 
 
+def check_pages() -> None:
+    """GitHub Pages runs Jekyll unless .nojekyll exists, and Jekyll skips every
+    path starting with '_' — including content/grade-NN/_grade.json. That breaks
+    the live hub while local preview still works, so it must be checked."""
+    if not (ROOT / ".nojekyll").exists():
+        err("trūksta .nojekyll — GitHub Pages (Jekyll) ignoruos _grade.json ir hub bus tuščias")
+    manifests = list(CONTENT.glob("grade-*/_grade.json"))
+    info["manifestai"] = len(manifests)
+    if not manifests:
+        err("nerastas nė vienas content/grade-NN/_grade.json")
+    for mf in manifests:
+        try:
+            d = json.loads(mf.read_text(encoding="utf-8"))
+        except Exception as exc:
+            err(f"{mf.relative_to(ROOT)}: neteisingas JSON — {exc}")
+            continue
+        ids = d.get("modules") or d.get("moduleIds") or []
+        if not ids:
+            err(f"{mf.relative_to(ROOT)}: modules sąrašas tuščias")
+
+
 def run_validate() -> None:
     f = ROOT / "tools" / "validate.py"
     r = subprocess.run([sys.executable, str(f)], capture_output=True, text=True, cwd=ROOT)
@@ -270,6 +291,7 @@ def main() -> int:
     check_s1(mods)
     check_wiki()
     check_links()
+    check_pages()
     run_validate()
 
     payload = {

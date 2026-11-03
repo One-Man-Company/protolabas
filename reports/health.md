@@ -1,6 +1,6 @@
 # Protolabas sveikatos ataskaita
 
-*Sugeneruota: 2026-11-03 13:57 · `tools/health.py`*
+*Sugeneruota: 2026-11-03 14:03 · `tools/health.py`*
 
 **Būsena:** ✅ SVEIKA · įspėjimai: 0
 
@@ -20,6 +20,7 @@
 | wiki_irasiai | 52 |
 | wiki_klases_su_turiniu | [1] |
 | html_puslapiai | ['mokytis.html', 'mokytojui.html', 'index.html'] |
+| manifestai | 1 |
 | validator | OK |
 
 Problemų nerasta.
