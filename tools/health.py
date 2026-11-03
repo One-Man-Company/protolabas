@@ -224,6 +224,15 @@ def check_links() -> None:
         warn(f"nuorodos į internetą (offline-first pažeidimas): {remote}")
 
 
+def check_a11y() -> None:
+    """Every page needs exactly one <h1>; screen-reader users navigate by heading."""
+    for page in ROOT.glob("*.html"):
+        html = page.read_text(encoding="utf-8")
+        n = len(re.findall(r"<h1[\s>]", html, re.I))
+        if n != 1:
+            err(f"{page.name}: <h1> skaičius {n} (turi būti 1)")
+
+
 def check_pages() -> None:
     """GitHub Pages runs Jekyll unless .nojekyll exists, and Jekyll skips every
     path starting with '_' — including content/grade-NN/_grade.json. That breaks
@@ -291,6 +300,7 @@ def main() -> int:
     check_s1(mods)
     check_wiki()
     check_links()
+    check_a11y()
     check_pages()
     run_validate()
 

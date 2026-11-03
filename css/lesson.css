@@ -9,7 +9,7 @@ body.lesson-page { background-image: radial-gradient(circle at 50% -10%, rgba(12
   max-width: 1240px; margin-inline: auto;
 }
 .lesson-id { display: flex; align-items: center; gap: .6rem; min-width: 0; }
-.lesson-id b { font-size: 1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lesson-id h1 { font: inherit; font-size: 1rem; font-weight: 700; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .lesson-tools { margin-left: auto; display: flex; gap: .4rem; }
 .icon-btn {
   width: 44px; height: 44px; border-radius: 50%; border: 1.5px solid var(--line);
