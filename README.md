@@ -12,11 +12,11 @@ Be registracijos. Be sekimo. Be išorinių priklausomybių. Veikia lėtame mokyk
 
 ## Kas veikia šiandien
 
-**1 klasė — 22 moduliai per 12 dalykų, 22 interaktyvios simuliacijos.**
+**1 klasė — 23 moduliai per 12 dalykų, 23 interaktyvios simuliacijos.**
 
 | Dalykas | Moduliai |
 |---|---|
-| Matematika (6) | Skaičiai iki 10 · Sudėtis iki 10 · Skaičiai iki 20 · Formos ir simetrija · Matuoju ilgį · Akmenų žaidimas |
+| Matematika (7) | Skaičiai iki 10 · Sudėtis iki 10 · Skaičiai iki 20 · Formos ir simetrija · Matuoju ilgį · Kiek dabar valandų? · Akmenų žaidimas |
 | Lietuvių kalba (2) | Raidės ir garsai · Skaitau žodžius |
 | Gamtos mokslai (3) | Augalo gyvenimas · Gyva ir negyva · Metų laikai\* |
 | Visuomeninis ugdymas (2) | Saugus kelias · Šeima ir bendruomenė |
@@ -54,7 +54,7 @@ content/            turinys kaip duomenys (JSON), ne kodas
   schema/           JSON Schema
 js/
   core/             store (localStorage), i18n, speech, sfx, sim registry
-  sims/             22 simuliacijos, kiekviena savarankiška
+  sims/             23 simuliacijos, kiekviena savarankiška
   lesson.js         variklis: talk → sim → quiz → sim → reflect
 guidelines/         Švietimo kelrodžio taisyklės (S1-01…S1-20) + atitiktis
 wiki/               įrodymų bazė: 52 P įrašai + 12 klasių aplankai
