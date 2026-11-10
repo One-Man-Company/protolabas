@@ -1,0 +1,129 @@
+{
+  "id": "laikas-valandos",
+  "grade": 1,
+  "subject": "matematika",
+  "subjectLabel": "Matematika",
+  "chipClass": "chip-clay",
+  "title": "Kiek dabar valandų?",
+  "tagline": "Nustatyk ir perskaityk pilną valandą laikrodyje",
+  "icon": "🕐",
+  "color": "clay",
+  "minutes": 8,
+  "curriculum": {
+    "program": "Matematikos bendroji programa (atnaujinta 2022 m.)",
+    "area": "Geometrija ir matavimai",
+    "codes": [
+      "Matematika 24.3.1.1",
+      "Matematika A1.3"
+    ],
+    "note": "Laikrodžio su rodyklėmis laikas valandomis; ta pati valanda 12 ir 24 valandų sistemoje. Minutės nenagrinėjamos.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-07",
+    "S1-09",
+    "S1-12",
+    "S1-13",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18"
+  ],
+  "objectives": [
+    "Nustatyti prašomą pilną valandą laikrodyje.",
+    "Perskaityti nustatytą valandą ir pasirinkti ją skaitmeniniu pavidalu.",
+    "Atpažinti tą pačią valandą 24 valandų užraše."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Dvi rodyklės, viena valanda",
+      "text": "Trumpa rodyklė rodo valandas. Ilga rodyklė rodo minutes. Kai ilga stovi ties 12, laikas yra lygiai valanda.",
+      "visual": "🕐",
+      "bullets": [
+        "Trumpa rodyklė – valandos.",
+        "Ilga rodyklė – minutės.",
+        "Ilga ties 12 – lygiai valanda."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "clock",
+      "title": "Nustatyk valandą",
+      "text": "Paliesk skaičių, ties kuriuo turi stoti trumpa rodyklė.",
+      "config": {
+        "mode": "set",
+        "rounds": 3
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Ilga rodyklė ties 12, trumpa rodo į 4. Kiek valandų?",
+      "options": [
+        "3 valanda",
+        "4 valanda",
+        "5 valanda"
+      ],
+      "answer": 1,
+      "hint": "Žiūrėk į trumpą rodyklę, ne į ilgą.",
+      "explain": "4 valanda, nes trumpa rodyklė rodo į 4."
+    },
+    {
+      "type": "sim",
+      "sim": "clock",
+      "title": "Perskaityk valandą",
+      "text": "Pažiūrėk, ties kuo stovi trumpa rodyklė, ir pasirink laiką.",
+      "config": {
+        "mode": "read",
+        "rounds": 3
+      }
+    },
+    {
+      "type": "reflect",
+      "question": "Kada tu žiūri į laikrodį?",
+      "chips": [
+        "Ryte",
+        "Prieš mokyklą",
+        "Per pietus",
+        "Vakare",
+        "Kai laukiu draugo"
+      ],
+      "note": "Laikrodis padeda susitarti dėl laiko."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Pilnos valandos nustatymas ir skaitymas laikrodyje su rodyklėmis, atpažįstant tą pačią valandą 24 valandų užraše.",
+    "priemones": [
+      "tikras laikrodis su rodyklėmis",
+      "popierinis ciferblatas su dviem pritvirtintomis rodyklėmis",
+      "skaitmeninis laikrodis telefone"
+    ],
+    "eiga": [
+      "Parodykite tikrą laikrodį ir leiskite paliesti abi rodykles.",
+      "Nustatykite lygiai valandą ir paklauskite, kuri rodyklė ką rodo.",
+      "Leiskite vaikui atlikti modulį, tada tą pačią valandą nustatykite tikrame laikrodyje."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Pradėkite nuo 12, 3, 6 ir 9 valandos – keturių kampinių padėčių; ilgą rodyklę laikykite pirštu ties 12.",
+      "issukis": "Duokite skaitmeninį laiką 19:00 ir paprašykite parodyti jį laikrodyje bei paaiškinti, kodėl tai 7 valanda."
+    },
+    "refleksija": "Klauskite: kaip žinai, kad laikrodis rodo lygiai valandą, o ne kelias minutes po jos?"
+  },
+  "outcome": "Per 6 simuliacijos raundus vaikas bent 5 kartus nustato prašomą valandą ir bent 4 kartus perskaito nustatytą valandą iš laikrodžio.",
+  "designNotes": {
+    "branduolineIdeja": "Pilną valandą rodo trumpa rodyklė, o ilga tuo metu stovi ties 12.",
+    "simTipas": "manipulate",
+    "kognityvineApkrova": "Vienas laikrodis, viena užduotis, iki 3 pasirinkimų skaitant. Minutės, „po / prieš“ ir laiko trukmė neatliekami.",
+    "ux": "Ciferblato skaičiai – atskiri ≥48 px taikiniai, rodyklė niekada nevelkama: palietus skaičių ji persirikiuoja. Instrukcija – balse, ekrane tik 1–3 žodžių etiketė.",
+    "evidence": [
+      "P13",
+      "P45",
+      "P46",
+      "P07",
+      "P43"
+    ],
+    "pastaba": "24 valandų sistema pasirodo viename raunde kaip atpažinimas (15:00 = 3 valanda po pietų), o ne kaip atimtis. Pagal Matematikos BP 24.3.1.1 punktą abi sistemos priklauso 1 klasei."
+  }
+}

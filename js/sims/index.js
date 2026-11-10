@@ -21,3 +21,4 @@ import './dance.js';
 import './robot.js';
 import './colors.js';
 import './build.js';
+import './clock.js';
