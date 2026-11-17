@@ -1,0 +1,131 @@
+{
+  "id": "palygink-skaicius",
+  "grade": 1,
+  "subject": "matematika",
+  "subjectLabel": "Matematika",
+  "chipClass": "chip-leaf",
+  "title": "Daugiau, mažiau ar lygu?",
+  "tagline": "Padėk ženklą tarp dviejų skaičių ir pažiūrėk, į kurią pusę jis atsiveria",
+  "icon": "🐊",
+  "color": "leaf",
+  "minutes": 8,
+  "curriculum": {
+    "program": "Matematikos bendroji programa (atnaujinta 2022 m.)",
+    "area": "Skaičiai ir skaičiavimai",
+    "codes": [
+      "Matematika 24.1.1.1",
+      "Matematika A1.3"
+    ],
+    "note": "Skaičių palyginimas ir ženklai =, <, > su kiekiais iki 10. Nelygumo ženklas ≠ įvardijamas, bet nepasirenkamas (trijų pasirinkimų riba).",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-07",
+    "S1-09",
+    "S1-12",
+    "S1-13",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18"
+  ],
+  "objectives": [
+    "Padėti ženklą =, < arba > tarp dviejų kiekių iki 10.",
+    "Paaiškinti, į kurią pusę atsiveria ženklas ir kodėl.",
+    "Tą patį palyginimą atlikti su skaičiais be paveikslėlių."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Plati pusė – į didesnį",
+      "text": "Tarp dviejų skaičių dedame ženklą. Plati ženklo pusė visada atsiveria į didesnį skaičių. Jei kairėje mažiau, ženklas atsiveria į dešinę. Jei kairėje daugiau – į kairę. Kai skaičiai lygūs, dedame lygybės ženklą.",
+      "visual": "🐊",
+      "bullets": [
+        "3 < 5 – trys mažiau už penkis.",
+        "5 > 3 – penki daugiau už tris.",
+        "5 = 5 – lygu.",
+        "4 ≠ 7 – nelygu."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "compare",
+      "title": "Padėk ženklą tarp krūvelių",
+      "text": "Palygink krūveles. Paliesk ženklą, kuris tinka.",
+      "config": {
+        "mode": "pictures",
+        "rounds": 4
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "Kuris užrašas teisingas?",
+      "options": [
+        "4 = 7",
+        "4 < 7",
+        "4 > 7"
+      ],
+      "answer": 1,
+      "hint": "Kairėje mažiau. Į kurią pusę tada atsiveria ženklas?",
+      "explain": "4 < 7, nes 4 mažiau už 7. Plati ženklo pusė rodo į 7."
+    },
+    {
+      "type": "sim",
+      "sim": "compare",
+      "title": "Dabar tik skaičiai",
+      "text": "Taisyklė ta pati. Skaičiuok, kurioje pusėje daugiau.",
+      "config": {
+        "mode": "symbols",
+        "rounds": 4
+      }
+    },
+    {
+      "type": "reflect",
+      "question": "Kur dar matai ženklus < ir >?",
+      "chips": [
+        "Knygoje",
+        "Skaičiuoklėje",
+        "Kelio ženkle",
+        "Parduotuvėje",
+        "Nemačiau"
+      ],
+      "note": "Ženklas pasako santykį trumpiau nei žodžiai."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Ženklo =, < arba > parinkimas tarp dviejų kiekių iki 10 ir ženklo krypties paaiškinimas.",
+    "priemones": [
+      "kortelės su skaičiais 1–10",
+      "du kauliukai",
+      "popieriaus juostelė ženklui rašyti"
+    ],
+    "eiga": [
+      "Parodykite dvi krūveles daiktų ir paklauskite, kur daugiau, nieko nerašydami.",
+      "Užrašykite 3 < 5 ir paprašykite vaiko pirštu parodyti plačiąją ženklo pusę.",
+      "Leiskite vaikui atlikti modulį, tada su kauliukais išmeskite du skaičius ir užrašykite jų palyginimą."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Lyginkite tik skaičius, kurie skiriasi daugiau nei vienu (3 ir 7), ir pirmiausia dėkite > – „kairėje daugiau“.",
+      "issukis": "Duokite užrašyti 4 ≠ 7 ir paaiškinti, kodėl šis ženklas sako „nelygu“, bet nepasako, kuris didesnis."
+    },
+    "refleksija": "Klauskite: kaip žinai, į kurią pusę turi atsiversti ženklas?"
+  },
+  "outcome": "Per 8 simuliacijos raundus vaikas bent 6 kartus padeda teisingą ženklą (=, < arba >) tarp dviejų kiekių iki 10, iš jų bent 3 kartus – kai rodomi tik skaičiai.",
+  "designNotes": {
+    "branduolineIdeja": "Palyginimo ženklas visada atsiveria į didesnį skaičių.",
+    "simTipas": "manipulate",
+    "kognityvineApkrova": "Dvi krūvelės arba du skaičiai, vienas tuščias langelis ir trys ženklai. Nėra nelygybių su nežinomuoju, kelių palyginimų vienu metu, laikmačio, balų.",
+    "ux": "Ženklų mygtukai ≥70 px, tarpai ≥12 px; krūvelė – neutralūs taškai, ne paveikslėliai. Instrukcija – balse, ekrane – tik skaičiai ir ženklas. Klaida rodo, ką ženklas teigia, o ne baudžia.",
+    "evidence": [
+      "P13",
+      "P39",
+      "P10",
+      "P45",
+      "P43",
+      "P15"
+    ],
+    "pastaba": "Modulis dengia 24.1.1.1 punkto palyginimo dalį su kiekiais iki 10. Nelygumo ženklas ≠ nepasirenkamas, nes trys ženklai ekrane jau yra standarto §7 riba (P10); jis įvardijamas talk dalyje ir mokytojo iššūkyje. Skaičiai iki 100, lygumas ir nelygumas – atskiri šio punkto žingsniai."
+  }
+}
