@@ -1,0 +1,131 @@
+{
+  "id": "truksta-demens",
+  "grade": 1,
+  "subject": "matematika",
+  "subjectLabel": "Matematika",
+  "chipClass": "chip-sky",
+  "title": "Trūkstamas dėmuo",
+  "tagline": "Visa suma žinoma. Rask, kiek dar trūksta, kad rėmelis būtų pilnas",
+  "icon": "🧩",
+  "color": "sky",
+  "minutes": 10,
+  "curriculum": {
+    "program": "Matematikos bendroji programa (atnaujinta 2022 m.)",
+    "area": "Skaičiai ir skaičiavimai",
+    "codes": [
+      "Matematika 24.1.1.2",
+      "Matematika A1.3"
+    ],
+    "note": "Trūkstamas skaičius lygybėje (langelis), kai visuma iki 10. Atimties užrašas pasirodo kaip paaiškinimas, ne kaip antra užduotis.",
+    "status": "privaloma"
+  },
+  "s1": [
+    "S1-01",
+    "S1-02",
+    "S1-07",
+    "S1-08",
+    "S1-09",
+    "S1-12",
+    "S1-13",
+    "S1-14",
+    "S1-16",
+    "S1-17",
+    "S1-18"
+  ],
+  "objectives": [
+    "Rasti trūkstamą dėmenį, kai visuma iki 10.",
+    "Paaiškinti, kodėl trūkstamą dalį randi atimdamas.",
+    "Tą patį atlikti su skaičiais, be taškų rėmelyje."
+  ],
+  "activities": [
+    {
+      "type": "talk",
+      "title": "Visuma – dvi dalys",
+      "text": "Devyni yra penki ir keturi. Jei žinai visumą ir vieną dalį, trūkstamą dalį randi atimdamas. Iš devynių atimk penkis – lieka keturi.",
+      "visual": "🧩",
+      "bullets": [
+        "5 + 4 = 9 – abi dalys kartu.",
+        "9 − 5 = 4 – trūkstama dalis.",
+        "Kuo daugiau jau yra, tuo mažiau trūksta."
+      ]
+    },
+    {
+      "type": "sim",
+      "sim": "gapfill",
+      "title": "Užpildyk rėmelį",
+      "text": "Kairėje jau yra taškų. Pridėk tiek, kad rėmelis būtų pilnas.",
+      "config": {
+        "mode": "counters",
+        "rounds": 4
+      }
+    },
+    {
+      "type": "quiz",
+      "question": "4 + ? = 9. Kuris skaičius telpa į langelį?",
+      "options": [
+        "3",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "hint": "Suskaičiuok, kiek vietų dar liko tuščių.",
+      "explain": "4 + 5 = 9, nes iš 9 atėmus 4 lieka 5."
+    },
+    {
+      "type": "sim",
+      "sim": "gapfill",
+      "title": "Dabar be taškų",
+      "text": "Rėmelio nebėra. Skaičiuok mintyse ir parodyk trūkstamą skaičių.",
+      "config": {
+        "mode": "symbols",
+        "rounds": 4
+      }
+    },
+    {
+      "type": "reflect",
+      "question": "Kada gyvenime ieškai, kiek dar trūksta?",
+      "chips": [
+        "Dėliojant servetėles",
+        "Renkant kamuoliukus",
+        "Lipant laiptais",
+        "Pilant vandenį",
+        "Niekada"
+      ],
+      "note": "Trūkstamą dalį randi atimdamas iš visumos."
+    }
+  ],
+  "teacher": {
+    "tikslas": "Trūkstamo dėmens radimas lygybėje, kai visuma iki 10, ir paaiškinimas, kodėl atimama.",
+    "priemones": [
+      "10 vienodų daiktų (kamšteliai, kubeliai)",
+      "popieriaus juostelė su dviem langeliais",
+      "pieštukas"
+    ],
+    "eiga": [
+      "Padėkite 4 kamštelius ir pasakykite: „Turime 9 iš viso. Kiek dar reikia?“ Leiskite vaikui dėti po vieną ir skaičiuoti balsu.",
+      "Užrašykite 4 + □ = 9 ir parodykite, kad langelį užpildo tai, ką vaikas pridėjo.",
+      "Leiskite vaikui atlikti modulį, tada kartu atimkite: 9 − 4 = 5, ir pasakykite, kad abu užrašai sako tą patį."
+    ],
+    "diferencijavimas": {
+      "pagalba": "Pradėkite nuo visumos 5–6 ir dėkite daiktus po vieną, kiekvieną kartą garsiai skaičiuodami „šeši, septyni…“.",
+      "issukis": "Duokite □ + □ = 9 ir paklauskite, keli sprendimai tinka – vaikas atras, kad ne vienas."
+    },
+    "refleksija": "Klauskite: kaip sužinojai, kiek trūksta? Ar lengviau pridėti, ar atimti?"
+  },
+  "outcome": "Per 8 simuliacijos raundus vaikas bent 6 kartus teisingai nurodo trūkstamą dėmenį, kai visuma iki 10, iš jų bent 3 kartus – kai užrašas rodomas vien simboliais, be taškų.",
+  "designNotes": {
+    "branduolineIdeja": "Trūkstamą dėmenį randi tada, kai iš visumos atimi tai, ką jau turi.",
+    "simTipas": "manipulate",
+    "kognityvineApkrova": "Viena lygybė su vienu langeliu, vienas rėmelis ir trys valdikliai (−1, +1, Patikrink). Nėra dviejų lygybių, nežinomojo abiejose pusėse, skaičių iki 20, laikmačio, balų.",
+    "ux": "Mygtukai ≥72 px, langeliai ≥44 px, tarpai ≥12 px; rėmelyje – neutralūs taškai. Instrukcija balse lt-LT, ekrane – skaičiai ir vienas ženklas. Klaida sako, kiek dabar viso, o ne kad neteisingai.",
+    "evidence": [
+      "P13",
+      "P39",
+      "P10",
+      "P43",
+      "P45",
+      "P15"
+    ],
+    "pastaba": "Modulis dengia 24.1.1.2 punkto dalį „trūkstamas skaičius lygybėje (langelis)“ su visuma iki 10. Atimties užrašas parodomas paaiškinime, bet ne kaip antra lygybė tame pačiame raunde (P10). Nežinomasis abiejose pusėse ir skaičiai iki 20 – kito lygio žingsniai."
+  }
+}

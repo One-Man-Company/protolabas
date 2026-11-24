@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T14:12:51",
+  "generated": "2026-11-24T07:50:41",
   "ok": true,
   "errors": [],
   "warnings": [],
@@ -9,9 +9,9 @@
       "metu-laikai",
       "sokiu-zingsniai"
     ],
-    "moduliai": 22,
+    "moduliai": 23,
     "dalyviai": {
-      "matematika": 6,
+      "matematika": 7,
       "informatika": 1,
       "gamta": 3,
       "choras": 1,
@@ -29,7 +29,7 @@
       1
     ],
     "s1_taisykles": 20,
-    "s1_panaudotos": 12,
+    "s1_panaudotos": 14,
     "s1_platformos": 8,
     "s1_nepanaudotos": [],
     "wiki_irasiai": 52,
